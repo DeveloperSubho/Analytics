@@ -1,0 +1,3716 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.2, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=windows-1252">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.AfterCaption
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-spacing: 0px;
+}
+.Batch
+{
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  background-color: #D3D3D3;
+  padding: 7px;
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 1px solid #000000;
+}
+.BeforeCaption
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-spacing: 0px;
+}
+.Body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.BodyDate
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-spacing: 0px;
+  width: 100%;
+  text-align: right;
+  vertical-align: top;
+}
+.ByContentFolder
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.Byline
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+  padding: 0px;
+  border-spacing: 0px;
+}
+.BylineContainer
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 1px;
+  border-spacing: 1px;
+  border: 0px solid #000000;
+  width: 100%;
+}
+.Caption
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-spacing: 0px;
+}
+.Cell
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.Container
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ContentFolder
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.ContentItem
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.ContentProcLabel
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  list-style-type: decimal;
+}
+.ContentProcName
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  list-style-type: decimal;
+}
+.Contents
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+  margin-left: 8px;
+  margin-right: 8px;
+  list-style-type: decimal;
+}
+.ContentsDate
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+  width: 100%;
+}
+.ContentTitle
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #002288;
+}
+.Continued
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-spacing: 0px;
+  width: 100%;
+  text-align: left;
+}
+.Data
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.DataEmphasis
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.DataEmphasisFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.DataEmpty
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.DataFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.DataStrong
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.DataStrongFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.Date
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+  width: 100%;
+}
+.Document
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+a:link {
+color:#0066AA
+}
+a:visited {
+color:#004488
+}
+a:active {
+color:#004488
+}
+.ErrorBanner
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ErrorContent
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ErrorContentFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ExtendedPage
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 2pt;
+  border: 1pt solid #000000;
+  text-align: center;
+}
+.FatalBanner
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.FatalContent
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.FatalContentFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.FolderAction
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.Footer
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.FooterEmphasis
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.FooterEmphasisFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.FooterEmpty
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.FooterFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.FooterStrong
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.FooterStrongFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.Frame
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.Graph
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 1px solid #000000;
+}
+.Header
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeaderEmphasis
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeaderEmphasisFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeaderEmpty
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeaderFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeadersAndFooters
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeaderStrong
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeaderStrongFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.Index
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.IndexAction
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.IndexItem
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.IndexProcName
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  list-style-type: decimal;
+}
+.IndexTitle
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #002288;
+}
+.LayoutContainer
+{
+  padding: 0px;
+  border-spacing: 30px;
+  border: 0px solid #000000;
+}
+.LayoutRegion
+{
+  padding: 0px;
+  border-spacing: 30px;
+  border: 0px solid #000000;
+}
+.List
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: disc;
+  width: 100%;
+  text-align: left;
+}
+.List10
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: circle;
+  width: 100%;
+  text-align: left;
+}
+.List3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List4
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List5
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List6
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List7
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List8
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List9
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.ListItem
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem10
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem4
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem5
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem6
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem7
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem8
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem9
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.Note
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.NoteBanner
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.NoteContent
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.NoteContentFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.Output
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #F0F0F0;
+  padding: 7px;
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 1px solid #000000;
+}
+.PageNo
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-spacing: 0px;
+  text-align: right;
+  vertical-align: top;
+}
+.Pages
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+  margin-left: 8px;
+  margin-right: 8px;
+  list-style-type: decimal;
+}
+.PagesDate
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+  width: 100%;
+}
+.PagesItem
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.PagesProcLabel
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  list-style-type: decimal;
+}
+.PagesProcName
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  list-style-type: decimal;
+}
+.PagesTitle
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #002288;
+}
+.Paragraph
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  width: 100%;
+  text-align: left;
+}
+.Parskip
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  padding: 0px;
+  border-spacing: 0px;
+  border: 0px solid #000000;
+}
+.PrePage
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  text-align: left;
+}
+.ProcTitle
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ProcTitleFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.RowFooter
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowFooterEmphasis
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowFooterEmphasisFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowFooterEmpty
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowFooterFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowFooterStrong
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowFooterStrongFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeader
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeaderEmphasis
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeaderEmphasisFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeaderEmpty
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeaderFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeaderStrong
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeaderStrongFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.SystemFooter
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter10
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter4
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter5
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter6
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter7
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter8
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter9
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle10
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle4
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle5
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle6
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle7
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle8
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle9
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SysTitleAndFooterContainer
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 1px;
+  border-spacing: 1px;
+  border: 0px solid #000000;
+  width: 100%;
+}
+.Table
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #F0F0F0;
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 1px solid #000000;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+}
+.TitleAndNoteContainer
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 1px;
+  border-spacing: 1px;
+  border: 0px solid #000000;
+  width: 100%;
+}
+.TitlesAndFooters
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.UserText
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  text-align: left;
+}
+.WarnBanner
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.WarnContent
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.WarnContentFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="Body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="SysTitleAndFooterContainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c SystemTitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c ProcTitle">The FASTCLUS Procedure</div>
+<div class="c ProcTitle">Replace=FULL  Radius=0  Maxclusters=50  Delete=36 Maxiter=150  Converge=0.02</div>
+<p>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Fastclus: Initial Seeds">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="6" scope="colgroup">Initial Seeds</th>
+</tr>
+<tr>
+<th class="l b Header" scope="col">Cluster</th>
+<th class="r b Header" scope="col">AVG_Actual_price_12</th>
+<th class="r b Header" scope="col">TOTAL_DAILY_ORDER_NET_AMT_12</th>
+<th class="r b Header" scope="col">AVG_DOLLAR_DISCOUNT_12</th>
+<th class="r b Header" scope="col">MONTH_SINCE_LAST_TRANSACTION</th>
+<th class="r b Header" scope="col">sum_value_12</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">1</th>
+<td class="r Data">0.290262717</td>
+<td class="r Data">2.426477382</td>
+<td class="r Data" nowrap>-0.646400932</td>
+<td class="r Data">0.279053765</td>
+<td class="r Data">0.321028368</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">2</th>
+<td class="r Data" nowrap>-1.011181666</td>
+<td class="r Data">3.099407898</td>
+<td class="r Data">5.297759084</td>
+<td class="r Data" nowrap>-0.282229341</td>
+<td class="r Data">5.714043542</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">3</th>
+<td class="r Data" nowrap>-1.163607451</td>
+<td class="r Data">0.424235302</td>
+<td class="r Data">0.741017804</td>
+<td class="r Data">0.840336871</td>
+<td class="r Data">1.285573754</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">4</th>
+<td class="r Data">0.086512644</td>
+<td class="r Data">3.099407898</td>
+<td class="r Data">2.802803196</td>
+<td class="r Data" nowrap>-0.843512447</td>
+<td class="r Data">3.328809691</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">5</th>
+<td class="r Data">0.084433854</td>
+<td class="r Data">3.099407898</td>
+<td class="r Data" nowrap>-0.629843277</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data">1.903632934</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">6</th>
+<td class="r Data">3.226698854</td>
+<td class="r Data">3.099407898</td>
+<td class="r Data">0.345698340</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data">3.289052668</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">7</th>
+<td class="r Data" nowrap>-0.865718227</td>
+<td class="r Data" nowrap>-0.247965090</td>
+<td class="r Data">0.750723929</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data">0.229762246</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">8</th>
+<td class="r Data">0.419241284</td>
+<td class="r Data">0.579160700</td>
+<td class="r Data" nowrap>-0.033411336</td>
+<td class="r Data" nowrap>-0.843512447</td>
+<td class="r Data" nowrap>-0.022782366</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">9</th>
+<td class="r Data">0.360375908</td>
+<td class="r Data">0.999329265</td>
+<td class="r Data">2.768630263</td>
+<td class="r Data">0.279053765</td>
+<td class="r Data">0.439799349</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">10</th>
+<td class="r Data" nowrap>-1.338111393</td>
+<td class="r Data" nowrap>-0.815271069</td>
+<td class="r Data" nowrap>-0.514444549</td>
+<td class="r Data" nowrap>-0.843512447</td>
+<td class="r Data" nowrap>-0.492865406</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">11</th>
+<td class="r Data">2.021621514</td>
+<td class="r Data">1.131724998</td>
+<td class="r Data" nowrap>-0.646400932</td>
+<td class="r Data" nowrap>-0.562870894</td>
+<td class="r Data" nowrap>-0.011530378</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">12</th>
+<td class="r Data" nowrap>-0.794653326</td>
+<td class="r Data">3.022744928</td>
+<td class="r Data">1.001587675</td>
+<td class="r Data" nowrap>-0.562870894</td>
+<td class="r Data">3.811644984</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">13</th>
+<td class="r Data" nowrap>-1.183824371</td>
+<td class="r Data" nowrap>-0.758808183</td>
+<td class="r Data">2.128201951</td>
+<td class="r Data" nowrap>-0.562870894</td>
+<td class="r Data" nowrap>-0.102796501</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">14</th>
+<td class="r Data" nowrap>-0.407071680</td>
+<td class="r Data">1.740156401</td>
+<td class="r Data">3.576212125</td>
+<td class="r Data" nowrap>-0.843512447</td>
+<td class="r Data">0.744853236</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">15</th>
+<td class="r Data">0.422002046</td>
+<td class="r Data">3.099407898</td>
+<td class="r Data">7.075950521</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data">5.714043542</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">16</th>
+<td class="r Data" nowrap>-0.485820976</td>
+<td class="r Data">2.866985242</td>
+<td class="r Data">0.592966152</td>
+<td class="r Data" nowrap>-0.282229341</td>
+<td class="r Data">2.327632834</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">17</th>
+<td class="r Data">2.149500982</td>
+<td class="r Data">2.412052088</td>
+<td class="r Data" nowrap>-0.076477442</td>
+<td class="r Data">0.279053765</td>
+<td class="r Data">0.519813483</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">18</th>
+<td class="r Data" nowrap>-0.207559940</td>
+<td class="r Data">0.255576768</td>
+<td class="r Data">1.992726731</td>
+<td class="r Data">1.682261529</td>
+<td class="r Data" nowrap>-0.142803568</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">19</th>
+<td class="r Data">0.566613529</td>
+<td class="r Data">3.099407898</td>
+<td class="r Data">1.181578074</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data">2.796215609</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">20</th>
+<td class="r Data">0.457470327</td>
+<td class="r Data" nowrap>-0.669246364</td>
+<td class="r Data" nowrap>-0.646400932</td>
+<td class="r Data">1.962903082</td>
+<td class="r Data" nowrap>-0.474112093</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">21</th>
+<td class="r Data">0.803286065</td>
+<td class="r Data">0.776398216</td>
+<td class="r Data">7.075950521</td>
+<td class="r Data" nowrap>-0.001587788</td>
+<td class="r Data">0.312276822</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">22</th>
+<td class="r Data" nowrap>-0.230564287</td>
+<td class="r Data">3.099407898</td>
+<td class="r Data">4.829785197</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data">3.295953887</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">23</th>
+<td class="r Data" nowrap>-1.054826782</td>
+<td class="r Data">0.920505616</td>
+<td class="r Data">0.865671364</td>
+<td class="r Data" nowrap>-0.282229341</td>
+<td class="r Data">2.888981996</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">24</th>
+<td class="r Data" nowrap>-0.399088656</td>
+<td class="r Data">1.683698383</td>
+<td class="r Data" nowrap>-0.539724614</td>
+<td class="r Data" nowrap>-0.843512447</td>
+<td class="r Data">0.202257387</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">25</th>
+<td class="r Data">0.404267906</td>
+<td class="r Data">0.192299396</td>
+<td class="r Data" nowrap>-0.646400932</td>
+<td class="r Data">0.559695318</td>
+<td class="r Data" nowrap>-0.252823003</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">26</th>
+<td class="r Data">0.436189358</td>
+<td class="r Data">1.148761213</td>
+<td class="r Data" nowrap>-0.307084518</td>
+<td class="r Data">1.682261529</td>
+<td class="r Data">0.077235302</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">27</th>
+<td class="r Data" nowrap>-0.707399972</td>
+<td class="r Data">3.099407898</td>
+<td class="r Data">1.682969167</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data">5.714043542</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">28</th>
+<td class="r Data">1.172747325</td>
+<td class="r Data">3.081641559</td>
+<td class="r Data">0.141036566</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data">0.741102574</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">29</th>
+<td class="r Data">0.723482433</td>
+<td class="r Data" nowrap>-0.060810093</td>
+<td class="r Data">3.576203328</td>
+<td class="r Data" nowrap>-0.843512447</td>
+<td class="r Data" nowrap>-0.017781483</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">30</th>
+<td class="r Data">1.588021780</td>
+<td class="r Data">0.255576768</td>
+<td class="r Data">2.151778158</td>
+<td class="r Data">1.682261529</td>
+<td class="r Data" nowrap>-0.037735007</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">31</th>
+<td class="r Data">3.117591393</td>
+<td class="r Data" nowrap>-0.425871856</td>
+<td class="r Data" nowrap>-0.646400932</td>
+<td class="r Data" nowrap>-0.843512447</td>
+<td class="r Data" nowrap>-0.411601051</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">32</th>
+<td class="r Data">0.803286065</td>
+<td class="r Data" nowrap>-0.637607678</td>
+<td class="r Data">0.813916375</td>
+<td class="r Data">1.962903082</td>
+<td class="r Data" nowrap>-0.414101492</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">33</th>
+<td class="r Data" nowrap>-0.670420981</td>
+<td class="r Data">3.099407898</td>
+<td class="r Data">3.572062636</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data">5.714043542</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">34</th>
+<td class="r Data">0.582496017</td>
+<td class="r Data" nowrap>-0.657807762</td>
+<td class="r Data">0.959948105</td>
+<td class="r Data" nowrap>-0.562870894</td>
+<td class="r Data" nowrap>-0.414101492</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">35</th>
+<td class="r Data">1.521518753</td>
+<td class="r Data" nowrap>-0.571896561</td>
+<td class="r Data" nowrap>-0.646400932</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data" nowrap>-0.449107676</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">36</th>
+<td class="r Data" nowrap>-0.222380614</td>
+<td class="r Data">3.097217527</td>
+<td class="r Data">1.486014219</td>
+<td class="r Data">0.559695318</td>
+<td class="r Data">1.023652486</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">37</th>
+<td class="r Data">1.787530860</td>
+<td class="r Data" nowrap>-0.547559110</td>
+<td class="r Data" nowrap>-0.646400932</td>
+<td class="r Data">0.559695318</td>
+<td class="r Data" nowrap>-0.442856572</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">38</th>
+<td class="r Data" nowrap>-0.591681422</td>
+<td class="r Data">1.386684133</td>
+<td class="r Data">1.174898770</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data">0.959891223</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">39</th>
+<td class="r Data" nowrap>-1.191804734</td>
+<td class="r Data" nowrap>-0.683848834</td>
+<td class="r Data">0.224511197</td>
+<td class="r Data">1.682261529</td>
+<td class="r Data" nowrap>-0.230319027</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">40</th>
+<td class="r Data">0.085053378</td>
+<td class="r Data" nowrap>-0.567029070</td>
+<td class="r Data" nowrap>-0.646400932</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data" nowrap>-0.447857455</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">41</th>
+<td class="r Data" nowrap>-0.746234456</td>
+<td class="r Data" nowrap>-0.598667757</td>
+<td class="r Data">0.853503290</td>
+<td class="r Data">0.279053765</td>
+<td class="r Data" nowrap>-0.242821236</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">42</th>
+<td class="r Data">3.184094420</td>
+<td class="r Data">0.000033534</td>
+<td class="r Data">0.365264672</td>
+<td class="r Data" nowrap>-0.001587788</td>
+<td class="r Data" nowrap>-0.230319027</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">43</th>
+<td class="r Data" nowrap>-1.165203524</td>
+<td class="r Data" nowrap>-0.817704814</td>
+<td class="r Data" nowrap>-0.628806747</td>
+<td class="r Data">0.559695318</td>
+<td class="r Data" nowrap>-0.511618719</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">44</th>
+<td class="r Data" nowrap>-0.906639756</td>
+<td class="r Data" nowrap>-0.020409925</td>
+<td class="r Data">2.051491306</td>
+<td class="r Data">0.559695318</td>
+<td class="r Data">0.651086673</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">45</th>
+<td class="r Data" nowrap>-0.819609462</td>
+<td class="r Data">0.386755628</td>
+<td class="r Data">2.203710325</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data">1.012275476</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">46</th>
+<td class="r Data">3.227081976</td>
+<td class="r Data" nowrap>-0.352859503</td>
+<td class="r Data" nowrap>-0.646400932</td>
+<td class="r Data">1.120978423</td>
+<td class="r Data" nowrap>-0.392847738</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">47</th>
+<td class="r Data" nowrap>-0.270637330</td>
+<td class="r Data">3.099407898</td>
+<td class="r Data">0.302244686</td>
+<td class="r Data" nowrap>-1.124154000</td>
+<td class="r Data">5.714043542</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">48</th>
+<td class="r Data">1.255623692</td>
+<td class="r Data" nowrap>-0.596223303</td>
+<td class="r Data">3.928009602</td>
+<td class="r Data">1.401619976</td>
+<td class="r Data" nowrap>-0.292830070</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">49</th>
+<td class="r Data" nowrap>-0.188540074</td>
+<td class="r Data" nowrap>-0.505832550</td>
+<td class="r Data">7.075950521</td>
+<td class="r Data">1.962903082</td>
+<td class="r Data" nowrap>-0.157768711</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">50</th>
+<td class="r Data" nowrap>-0.814067543</td>
+<td class="r Data">0.457090861</td>
+<td class="r Data">6.644629090</td>
+<td class="r Data">0.559695318</td>
+<td class="r Data">0.592326293</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX1"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Fastclus: Minimum Distance">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">Minimum Distance Between Initial Seeds =</th>
+<td class="r Data">1.396777</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX2"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Fastclus: Iteration History">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="52" scope="colgroup">Iteration History</th>
+</tr>
+<tr>
+<th class="c b Header" rowspan="2" scope="col">Iteration</th>
+<th class="r b Header" rowspan="2" scope="col">Criterion</th>
+<th class="c b Header" colspan="50" scope="colgroup">Relative Change in Cluster Seeds</th>
+</tr>
+<tr>
+<th class="r b Header" scope="col">    1   </th>
+<th class="r b Header" scope="col">    2   </th>
+<th class="r b Header" scope="col">    3   </th>
+<th class="r b Header" scope="col">    4   </th>
+<th class="r b Header" scope="col">    5   </th>
+<th class="r b Header" scope="col">    6   </th>
+<th class="r b Header" scope="col">    7   </th>
+<th class="r b Header" scope="col">    8   </th>
+<th class="r b Header" scope="col">    9   </th>
+<th class="r b Header" scope="col">   10   </th>
+<th class="r b Header" scope="col">   11   </th>
+<th class="r b Header" scope="col">   12   </th>
+<th class="r b Header" scope="col">   13   </th>
+<th class="r b Header" scope="col">   14   </th>
+<th class="r b Header" scope="col">   15   </th>
+<th class="r b Header" scope="col">   16   </th>
+<th class="r b Header" scope="col">   17   </th>
+<th class="r b Header" scope="col">   18   </th>
+<th class="r b Header" scope="col">   19   </th>
+<th class="r b Header" scope="col">   20   </th>
+<th class="r b Header" scope="col">   21   </th>
+<th class="r b Header" scope="col">   22   </th>
+<th class="r b Header" scope="col">   23   </th>
+<th class="r b Header" scope="col">   24   </th>
+<th class="r b Header" scope="col">   25   </th>
+<th class="r b Header" scope="col">   26   </th>
+<th class="r b Header" scope="col">   27   </th>
+<th class="r b Header" scope="col">   28   </th>
+<th class="r b Header" scope="col">   29   </th>
+<th class="r b Header" scope="col">   30   </th>
+<th class="r b Header" scope="col">   31   </th>
+<th class="r b Header" scope="col">   32   </th>
+<th class="r b Header" scope="col">   33   </th>
+<th class="r b Header" scope="col">   34   </th>
+<th class="r b Header" scope="col">   35   </th>
+<th class="r b Header" scope="col">   36   </th>
+<th class="r b Header" scope="col">   37   </th>
+<th class="r b Header" scope="col">   38   </th>
+<th class="r b Header" scope="col">   39   </th>
+<th class="r b Header" scope="col">   40   </th>
+<th class="r b Header" scope="col">   41   </th>
+<th class="r b Header" scope="col">   42   </th>
+<th class="r b Header" scope="col">   43   </th>
+<th class="r b Header" scope="col">   44   </th>
+<th class="r b Header" scope="col">   45   </th>
+<th class="r b Header" scope="col">   46   </th>
+<th class="r b Header" scope="col">   47   </th>
+<th class="r b Header" scope="col">   48   </th>
+<th class="r b Header" scope="col">   49   </th>
+<th class="r b Header" scope="col">   50   </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r RowHeader" scope="row">1</th>
+<td class="r Data">0.3542</td>
+<td class="r Data">0.2497</td>
+<td class="r Data">0</td>
+<td class="r Data">0.4619</td>
+<td class="r Data">0</td>
+<td class="r Data">0.4103</td>
+<td class="r Data">0</td>
+<td class="r Data">0.2301</td>
+<td class="r Data">0.1554</td>
+<td class="r Data">0.4755</td>
+<td class="r Data">0.3355</td>
+<td class="r Data">0.3513</td>
+<td class="r Data">0.5851</td>
+<td class="r Data">0.3558</td>
+<td class="r Data">0</td>
+<td class="r Data">0.3104</td>
+<td class="r Data">0.4543</td>
+<td class="r Data">0.2821</td>
+<td class="r Data">0.4225</td>
+<td class="r Data">0</td>
+<td class="r Data">0.2565</td>
+<td class="r Data">0</td>
+<td class="r Data">0</td>
+<td class="r Data">0.4848</td>
+<td class="r Data">0.2980</td>
+<td class="r Data">0.3512</td>
+<td class="r Data">0.3297</td>
+<td class="r Data">0</td>
+<td class="r Data">0.3052</td>
+<td class="r Data">0.3400</td>
+<td class="r Data">0</td>
+<td class="r Data">0.1779</td>
+<td class="r Data">0.3638</td>
+<td class="r Data">0.2466</td>
+<td class="r Data">0.3153</td>
+<td class="r Data">0.3026</td>
+<td class="r Data">0.3588</td>
+<td class="r Data">0.1878</td>
+<td class="r Data">0.4220</td>
+<td class="r Data">0.3856</td>
+<td class="r Data">0.3383</td>
+<td class="r Data">0.3570</td>
+<td class="r Data">0.4097</td>
+<td class="r Data">0.3608</td>
+<td class="r Data">0.3782</td>
+<td class="r Data">0.3121</td>
+<td class="r Data">0.2282</td>
+<td class="r Data">0.2418</td>
+<td class="r Data">0</td>
+<td class="r Data">0</td>
+<td class="r Data">0.3299</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">2</th>
+<td class="r Data">0.7714</td>
+<td class="r Data">0.8412</td>
+<td class="r Data">0.7323</td>
+<td class="r Data">0.0363</td>
+<td class="r Data">0.2826</td>
+<td class="r Data">0.5200</td>
+<td class="r Data">0.0583</td>
+<td class="r Data">0.1759</td>
+<td class="r Data">0.4926</td>
+<td class="r Data">0.0466</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">3</th>
+<td class="r Data">0.6657</td>
+<td class="r Data">0.5252</td>
+<td class="r Data">0.6410</td>
+<td class="r Data">0.1581</td>
+<td class="r Data">0.1428</td>
+<td class="r Data">0.4461</td>
+<td class="r Data">0.0949</td>
+<td class="r Data">0.1785</td>
+<td class="r Data">0.1366</td>
+<td class="r Data">0.0810</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">4</th>
+<td class="r Data">0.6049</td>
+<td class="r Data">0.7347</td>
+<td class="r Data">0.4838</td>
+<td class="r Data">0.1643</td>
+<td class="r Data">0.1267</td>
+<td class="r Data">0.2532</td>
+<td class="r Data">0.0133</td>
+<td class="r Data">0.1282</td>
+<td class="r Data">0.2330</td>
+<td class="r Data">0.0504</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">5</th>
+<td class="r Data">0.6016</td>
+<td class="r Data">0.5372</td>
+<td class="r Data">0.1056</td>
+<td class="r Data">0.0418</td>
+<td class="r Data">0.1383</td>
+<td class="r Data">0.00699</td>
+<td class="r Data">0.1123</td>
+<td class="r Data">0.3349</td>
+<td class="r Data">0.0517</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">6</th>
+<td class="r Data">0.5800</td>
+<td class="r Data">0.2376</td>
+<td class="r Data">0.0386</td>
+<td class="r Data">0.0256</td>
+<td class="r Data">0.0579</td>
+<td class="r Data">0.0395</td>
+<td class="r Data">0.1281</td>
+<td class="r Data">0.1582</td>
+<td class="r Data">0.0410</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">7</th>
+<td class="r Data">0.5732</td>
+<td class="r Data">0.2844</td>
+<td class="r Data">0.0547</td>
+<td class="r Data">0.0271</td>
+<td class="r Data">0.0280</td>
+<td class="r Data">0.0137</td>
+<td class="r Data">0.1223</td>
+<td class="r Data">0.0767</td>
+<td class="r Data">0.0393</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">8</th>
+<td class="r Data">0.5672</td>
+<td class="r Data">0.2048</td>
+<td class="r Data">0.0648</td>
+<td class="r Data">0.0102</td>
+<td class="r Data">0.0333</td>
+<td class="r Data">0</td>
+<td class="r Data">0.1160</td>
+<td class="r Data">0.1302</td>
+<td class="r Data">0.0480</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">9</th>
+<td class="r Data">0.6146</td>
+<td class="r Data">0.2369</td>
+<td class="r Data">0.2007</td>
+<td class="r Data">0.1491</td>
+<td class="r Data">0.0576</td>
+<td class="r Data">0.0530</td>
+<td class="r Data">0.0978</td>
+<td class="r Data">0.0455</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">10</th>
+<td class="r Data">0.6060</td>
+<td class="r Data">0.1057</td>
+<td class="r Data">0.1166</td>
+<td class="r Data">0.0664</td>
+<td class="r Data">0.0440</td>
+<td class="r Data">0.0304</td>
+<td class="r Data">0.1288</td>
+<td class="r Data">0.0860</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">11</th>
+<td class="r Data">0.5990</td>
+<td class="r Data">0.1207</td>
+<td class="r Data">0.2080</td>
+<td class="r Data">0.0338</td>
+<td class="r Data">0.0651</td>
+<td class="r Data">0.0615</td>
+<td class="r Data">0.1726</td>
+<td class="r Data">0.1356</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">12</th>
+<td class="r Data">0.5864</td>
+<td class="r Data">0.2252</td>
+<td class="r Data">0.2496</td>
+<td class="r Data">0.0743</td>
+<td class="r Data">0.0505</td>
+<td class="r Data">0.0567</td>
+<td class="r Data">0.2723</td>
+<td class="r Data">0.1386</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">13</th>
+<td class="r Data">0.5708</td>
+<td class="r Data">0.3617</td>
+<td class="r Data">0.1506</td>
+<td class="r Data">0.0395</td>
+<td class="r Data">0.0664</td>
+<td class="r Data">0.0571</td>
+<td class="r Data">0.2796</td>
+<td class="r Data">0.0799</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">14</th>
+<td class="r Data">0.6804</td>
+<td class="r Data">0.3656</td>
+<td class="r Data">0.0700</td>
+<td class="r Data">0.0715</td>
+<td class="r Data">0.0754</td>
+<td class="r Data">0.7772</td>
+<td class="r Data">0.0730</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">15</th>
+<td class="r Data">0.6340</td>
+<td class="r Data">0.2327</td>
+<td class="r Data">0.0458</td>
+<td class="r Data">0.0910</td>
+<td class="r Data">0.0485</td>
+<td class="r Data">0.4279</td>
+<td class="r Data">0.1177</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">16</th>
+<td class="r Data">0.6173</td>
+<td class="r Data">0.1911</td>
+<td class="r Data">0.0148</td>
+<td class="r Data">0.0233</td>
+<td class="r Data">0.0185</td>
+<td class="r Data">0.2960</td>
+<td class="r Data">0.0807</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">17</th>
+<td class="r Data">0.6103</td>
+<td class="r Data">0.0951</td>
+<td class="r Data">0.0170</td>
+<td class="r Data">0.0377</td>
+<td class="r Data">0.0263</td>
+<td class="r Data">0.2360</td>
+<td class="r Data">0.0652</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">18</th>
+<td class="r Data">0.6068</td>
+<td class="r Data">0.0277</td>
+<td class="r Data">0.0213</td>
+<td class="r Data">0.0289</td>
+<td class="r Data">0.0302</td>
+<td class="r Data">0.1221</td>
+<td class="r Data">0.0289</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">19</th>
+<td class="r Data">0.6056</td>
+<td class="r Data">0.0336</td>
+<td class="r Data">0</td>
+<td class="r Data">0.0161</td>
+<td class="r Data">0.0190</td>
+<td class="r Data">0.0985</td>
+<td class="r Data">0.0227</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">20</th>
+<td class="r Data">0.6045</td>
+<td class="r Data">0.0301</td>
+<td class="r Data">0.0215</td>
+<td class="r Data">0.0142</td>
+<td class="r Data">0</td>
+<td class="r Data">0.2088</td>
+<td class="r Data">0.0252</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">21</th>
+<td class="r Data">0.6028</td>
+<td class="r Data">0.0315</td>
+<td class="r Data">0</td>
+<td class="r Data">0</td>
+<td class="r Data">0</td>
+<td class="r Data">0.0991</td>
+<td class="r Data">0.0128</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">22</th>
+<td class="r Data">0.6026</td>
+<td class="r Data">0</td>
+<td class="r Data">0</td>
+<td class="r Data">0.0134</td>
+<td class="r Data">0.00726</td>
+<td class="r Data">0.0394</td>
+<td class="r Data">0.0165</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">23</th>
+<td class="r Data">0.6024</td>
+<td class="r Data">0</td>
+<td class="r Data">0.0160</td>
+<td class="r Data">0.0276</td>
+<td class="r Data">0.0127</td>
+<td class="r Data">0</td>
+<td class="r Data">0.0238</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">24</th>
+<td class="r Data">0.6023</td>
+<td class="r Data">0</td>
+<td class="r Data">0.00957</td>
+<td class="r Data">0.00755</td>
+<td class="r Data">0.00602</td>
+<td class="r Data">0</td>
+<td class="r Data">0.00698</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+<td class="r Data">.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX3"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Fastclus: Convergence Status">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="l Data">Convergence criterion is satisfied.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX4"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Fastclus: Criterion">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">Criterion Based on Final Seeds =</th>
+<td class="r Data">0.6022</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX5"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Fastclus: Cluster Summary">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="7" scope="colgroup">Cluster Summary</th>
+</tr>
+<tr>
+<th class="l b Header" scope="col">Cluster</th>
+<th class="r b Header" scope="col">Frequency</th>
+<th class="r b Header" scope="col">RMS Std Deviation</th>
+<th class="r b Header" scope="col">Maximum Distance<br>from Seed<br>to Observation</th>
+<th class="c b Header" scope="col">Radius<br>Exceeded</th>
+<th class="r b Header" scope="col">Nearest Cluster</th>
+<th class="r b Header" scope="col">Distance Between<br>Cluster Centroids</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">1</th>
+<td class="r Data">50</td>
+<td class="r Data">0.9071</td>
+<td class="r Data">5.4705</td>
+<td class="c Data">&nbsp;</td>
+<td class="r Data">6</td>
+<td class="r Data">2.3609</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">2</th>
+<td class="r Data">97</td>
+<td class="r Data">0.5080</td>
+<td class="r Data">2.8983</td>
+<td class="c Data">&nbsp;</td>
+<td class="r Data">4</td>
+<td class="r Data">1.4366</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">3</th>
+<td class="r Data">116</td>
+<td class="r Data">0.5501</td>
+<td class="r Data">2.7776</td>
+<td class="c Data">&nbsp;</td>
+<td class="r Data">2</td>
+<td class="r Data">1.9166</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">4</th>
+<td class="r Data">148</td>
+<td class="r Data">0.3838</td>
+<td class="r Data">1.7439</td>
+<td class="c Data">&nbsp;</td>
+<td class="r Data">2</td>
+<td class="r Data">1.4366</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">5</th>
+<td class="r Data">49</td>
+<td class="r Data">1.2255</td>
+<td class="r Data">6.6985</td>
+<td class="c Data">&nbsp;</td>
+<td class="r Data">1</td>
+<td class="r Data">4.0227</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">6</th>
+<td class="r Data">247</td>
+<td class="r Data">0.5052</td>
+<td class="r Data">2.6209</td>
+<td class="c Data">&nbsp;</td>
+<td class="r Data">4</td>
+<td class="r Data">1.9242</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX6"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Fastclus: Statistics for Variables">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<colgroup>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="5" scope="colgroup">Statistics for Variables</th>
+</tr>
+<tr>
+<th class="l b Header" scope="col">Variable</th>
+<th class="r b Header" scope="col">Total STD</th>
+<th class="r b Header" scope="col">Within STD</th>
+<th class="r b Header" scope="col">R-Square</th>
+<th class="r b Header" scope="col">RSQ/(1-RSQ)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">AVG_Actual_price_12</th>
+<td class="r Data">1.00000</td>
+<td class="r Data">0.54777</td>
+<td class="r Data">0.702076</td>
+<th class="r Data">2.356555</th>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">TOTAL_DAILY_ORDER_NET_AMT_12</th>
+<td class="r Data">1.00000</td>
+<td class="r Data">0.58557</td>
+<td class="r Data">0.659533</td>
+<th class="r Data">1.937145</th>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_DOLLAR_DISCOUNT_12</th>
+<td class="r Data">1.00000</td>
+<td class="r Data">0.75006</td>
+<td class="r Data">0.441392</td>
+<th class="r Data">0.790163</th>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">MONTH_SINCE_LAST_TRANSACTION</th>
+<td class="r Data">1.00000</td>
+<td class="r Data">0.55497</td>
+<td class="r Data">0.694192</td>
+<th class="r Data">2.270027</th>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">sum_value_12</th>
+<td class="r Data">1.00000</td>
+<td class="r Data">0.56164</td>
+<td class="r Data">0.686790</td>
+<th class="r Data">2.192746</th>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">OVER-ALL</th>
+<td class="r Data">1.00000</td>
+<td class="r Data">0.60481</td>
+<td class="r Data">0.636797</td>
+<th class="r Data">1.753278</th>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX7"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Fastclus: Pseudo F Statistic">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">Pseudo F Statistic =</th>
+<td class="r Data">245.81</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX8"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Fastclus: Approximate Expected Over-All R-Squared">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">Approximate Expected Over-All R-Squared =</th>
+<td class="r Data">0.51815</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX9"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Fastclus: Cubic Clustering Criterion">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">Cubic Clustering Criterion =</th>
+<td class="r Data">26.097</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<br>
+<p>
+<div class="c ProcTitle">WARNING: The two values above are invalid for correlated variables.</div>
+<p>
+<a name="IDX10"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Fastclus: Cluster Means">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="6" scope="colgroup">Cluster Means</th>
+</tr>
+<tr>
+<th class="l b Header" scope="col">Cluster</th>
+<th class="r b Header" scope="col">AVG_Actual_price_12</th>
+<th class="r b Header" scope="col">TOTAL_DAILY_ORDER_NET_AMT_12</th>
+<th class="r b Header" scope="col">AVG_DOLLAR_DISCOUNT_12</th>
+<th class="r b Header" scope="col">MONTH_SINCE_LAST_TRANSACTION</th>
+<th class="r b Header" scope="col">sum_value_12</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">1</th>
+<td class="r Data" nowrap>-0.462640167</td>
+<td class="r Data">0.121594448</td>
+<td class="r Data">2.068686206</td>
+<td class="r Data" nowrap>-0.068941761</td>
+<td class="r Data">0.348578735</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">2</th>
+<td class="r Data">0.636182203</td>
+<td class="r Data" nowrap>-0.217045558</td>
+<td class="r Data" nowrap>-0.188873200</td>
+<td class="r Data">1.106512364</td>
+<td class="r Data" nowrap>-0.309866198</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">3</th>
+<td class="r Data">1.646266860</td>
+<td class="r Data" nowrap>-0.044257018</td>
+<td class="r Data" nowrap>-0.459787145</td>
+<td class="r Data" nowrap>-0.490291182</td>
+<td class="r Data" nowrap>-0.295911325</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">4</th>
+<td class="r Data" nowrap>-0.733877353</td>
+<td class="r Data" nowrap>-0.619783343</td>
+<td class="r Data" nowrap>-0.313492823</td>
+<td class="r Data">1.124770877</td>
+<td class="r Data" nowrap>-0.403595160</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">5</th>
+<td class="r Data" nowrap>-0.214688396</td>
+<td class="r Data">2.857251116</td>
+<td class="r Data">1.011887259</td>
+<td class="r Data" nowrap>-0.906513612</td>
+<td class="r Data">2.959822316</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">6</th>
+<td class="r Data" nowrap>-0.447008265</td>
+<td class="r Data" nowrap>-0.114048013</td>
+<td class="r Data" nowrap>-0.141554004</td>
+<td class="r Data" nowrap>-0.684444360</td>
+<td class="r Data" nowrap>-0.155244581</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX11"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Fastclus: Cluster Standard Deviations">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="6" scope="colgroup">Cluster Standard Deviations</th>
+</tr>
+<tr>
+<th class="l b Header" scope="col">Cluster</th>
+<th class="r b Header" scope="col">AVG_Actual_price_12</th>
+<th class="r b Header" scope="col">TOTAL_DAILY_ORDER_NET_AMT_12</th>
+<th class="r b Header" scope="col">AVG_DOLLAR_DISCOUNT_12</th>
+<th class="r b Header" scope="col">MONTH_SINCE_LAST_TRANSACTION</th>
+<th class="r b Header" scope="col">sum_value_12</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">1</th>
+<td class="r Data">0.518327159</td>
+<td class="r Data">0.615672983</td>
+<td class="r Data">1.578077728</td>
+<td class="r Data">0.859047228</td>
+<td class="r Data">0.487902053</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">2</th>
+<td class="r Data">0.503336780</td>
+<td class="r Data">0.570473393</td>
+<td class="r Data">0.580226272</td>
+<td class="r Data">0.583318174</td>
+<td class="r Data">0.185985695</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">3</th>
+<td class="r Data">0.788374761</td>
+<td class="r Data">0.642965978</td>
+<td class="r Data">0.271187119</td>
+<td class="r Data">0.609395696</td>
+<td class="r Data">0.182813625</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">4</th>
+<td class="r Data">0.334336167</td>
+<td class="r Data">0.195533520</td>
+<td class="r Data">0.435942724</td>
+<td class="r Data">0.615017318</td>
+<td class="r Data">0.134600543</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">5</th>
+<td class="r Data">0.745340734</td>
+<td class="r Data">0.496124025</td>
+<td class="r Data">1.757823625</td>
+<td class="r Data">0.367992434</td>
+<td class="r Data">1.866200475</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">6</th>
+<td class="r Data">0.486713554</td>
+<td class="r Data">0.714476004</td>
+<td class="r Data">0.474214102</td>
+<td class="r Data">0.414504345</td>
+<td class="r Data">0.363277463</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>

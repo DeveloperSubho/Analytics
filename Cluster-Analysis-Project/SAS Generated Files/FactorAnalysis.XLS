@@ -1,0 +1,3790 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.2, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=windows-1252">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.AfterCaption
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-spacing: 0px;
+}
+.Batch
+{
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  background-color: #D3D3D3;
+  padding: 7px;
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 1px solid #000000;
+}
+.BeforeCaption
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-spacing: 0px;
+}
+.Body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.BodyDate
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-spacing: 0px;
+  width: 100%;
+  text-align: right;
+  vertical-align: top;
+}
+.ByContentFolder
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.Byline
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+  padding: 0px;
+  border-spacing: 0px;
+}
+.BylineContainer
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 1px;
+  border-spacing: 1px;
+  border: 0px solid #000000;
+  width: 100%;
+}
+.Caption
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-spacing: 0px;
+}
+.Cell
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.Container
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ContentFolder
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.ContentItem
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.ContentProcLabel
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  list-style-type: decimal;
+}
+.ContentProcName
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  list-style-type: decimal;
+}
+.Contents
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+  margin-left: 8px;
+  margin-right: 8px;
+  list-style-type: decimal;
+}
+.ContentsDate
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+  width: 100%;
+}
+.ContentTitle
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #002288;
+}
+.Continued
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-spacing: 0px;
+  width: 100%;
+  text-align: left;
+}
+.Data
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.DataEmphasis
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.DataEmphasisFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.DataEmpty
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.DataFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.DataStrong
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.DataStrongFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  background-color: #D3D3D3;
+}
+.Date
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+  width: 100%;
+}
+.Document
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+a:link {
+color:#0066AA
+}
+a:visited {
+color:#004488
+}
+a:active {
+color:#004488
+}
+.ErrorBanner
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ErrorContent
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ErrorContentFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ExtendedPage
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 2pt;
+  border: 1pt solid #000000;
+  text-align: center;
+}
+.FatalBanner
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.FatalContent
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.FatalContentFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.FolderAction
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.Footer
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.FooterEmphasis
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.FooterEmphasisFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.FooterEmpty
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.FooterFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.FooterStrong
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.FooterStrongFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.Frame
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.Graph
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 1px solid #000000;
+}
+.Header
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeaderEmphasis
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeaderEmphasisFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeaderEmpty
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeaderFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeadersAndFooters
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeaderStrong
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.HeaderStrongFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.Index
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.IndexAction
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.IndexItem
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.IndexProcName
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  list-style-type: decimal;
+}
+.IndexTitle
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #002288;
+}
+.LayoutContainer
+{
+  padding: 0px;
+  border-spacing: 30px;
+  border: 0px solid #000000;
+}
+.LayoutRegion
+{
+  padding: 0px;
+  border-spacing: 30px;
+  border: 0px solid #000000;
+}
+.List
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: disc;
+  width: 100%;
+  text-align: left;
+}
+.List10
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: circle;
+  width: 100%;
+  text-align: left;
+}
+.List3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List4
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List5
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List6
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List7
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List8
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.List9
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  list-style-type: square;
+  width: 100%;
+  text-align: left;
+}
+.ListItem
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem10
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem4
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem5
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem6
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem7
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem8
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ListItem9
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.Note
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.NoteBanner
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.NoteContent
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.NoteContentFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.Output
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #F0F0F0;
+  padding: 7px;
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 1px solid #000000;
+}
+.PageNo
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 0px;
+  border-spacing: 0px;
+  text-align: right;
+  vertical-align: top;
+}
+.Pages
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+  margin-left: 8px;
+  margin-right: 8px;
+  list-style-type: decimal;
+}
+.PagesDate
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+  width: 100%;
+}
+.PagesItem
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  margin-left: 6pt;
+  list-style-type: none;
+}
+.PagesProcLabel
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  list-style-type: decimal;
+}
+.PagesProcName
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  list-style-type: decimal;
+}
+.PagesTitle
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #002288;
+}
+.Paragraph
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  width: 100%;
+  text-align: left;
+}
+.Parskip
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  padding: 0px;
+  border-spacing: 0px;
+  border: 0px solid #000000;
+}
+.PrePage
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  text-align: left;
+}
+.ProcTitle
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.ProcTitleFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.RowFooter
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowFooterEmphasis
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowFooterEmphasisFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowFooterEmpty
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowFooterFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowFooterStrong
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowFooterStrongFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeader
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeaderEmphasis
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeaderEmphasisFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: italic;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeaderEmpty
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeaderFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeaderStrong
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.RowHeaderStrongFixed
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-weight: bold;
+  font-style: normal;
+  color: #0033AA;
+  background-color: #B0B0B0;
+}
+.SystemFooter
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter10
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter4
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter5
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter6
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter7
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter8
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemFooter9
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle10
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle4
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle5
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle6
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle7
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle8
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SystemTitle9
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.SysTitleAndFooterContainer
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 1px;
+  border-spacing: 1px;
+  border: 0px solid #000000;
+  width: 100%;
+}
+.Table
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #F0F0F0;
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 1px solid #000000;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+}
+.TitleAndNoteContainer
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  padding: 1px;
+  border-spacing: 1px;
+  border: 0px solid #000000;
+  width: 100%;
+}
+.TitlesAndFooters
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  font-style: italic;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.UserText
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+  text-align: left;
+}
+.WarnBanner
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.WarnContent
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.WarnContentFixed
+{
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-weight: normal;
+  font-style: normal;
+  color: #002288;
+  background-color: #E0E0E0;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="Body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="SysTitleAndFooterContainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c SystemTitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c ProcTitle">The FACTOR Procedure</div>
+<div class="c ProcTitle">Initial Factor Method: Principal Components</div>
+<p>
+<br>
+<p>
+<div class="c ProcTitle">Prior Communality Estimates: ONE    </div>
+<p>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Factor: Eigenvalues">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="5" scope="colgroup">Eigenvalues of the Correlation Matrix: Total<br>= 18  Average = 1</th>
+</tr>
+<tr>
+<th class="c HeaderEmpty" scope="col">&nbsp;</th>
+<th class="r b Header" scope="col">Eigenvalue</th>
+<th class="r b Header" scope="col">Difference</th>
+<th class="r b Header" scope="col">Proportion</th>
+<th class="r b Header" scope="col">Cumulative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r RowHeader" scope="row">1</th>
+<td class="r Data">7.61059444</td>
+<td class="r Data">3.75396943</td>
+<td class="r Data">0.4228</td>
+<td class="r Data">0.4228</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">2</th>
+<td class="r Data">3.85662501</td>
+<td class="r Data">1.20510088</td>
+<td class="r Data">0.2143</td>
+<td class="r Data">0.6371</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">3</th>
+<td class="r Data">2.65152413</td>
+<td class="r Data">1.27673204</td>
+<td class="r Data">0.1473</td>
+<td class="r Data">0.7844</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">4</th>
+<td class="r Data">1.37479209</td>
+<td class="r Data">0.47109502</td>
+<td class="r Data">0.0764</td>
+<td class="r Data">0.8608</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">5</th>
+<td class="r Data">0.90369707</td>
+<td class="r Data">0.44768389</td>
+<td class="r Data">0.0502</td>
+<td class="r Data">0.9110</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">6</th>
+<td class="r Data">0.45601318</td>
+<td class="r Data">0.09902639</td>
+<td class="r Data">0.0253</td>
+<td class="r Data">0.9363</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">7</th>
+<td class="r Data">0.35698679</td>
+<td class="r Data">0.12582568</td>
+<td class="r Data">0.0198</td>
+<td class="r Data">0.9561</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">8</th>
+<td class="r Data">0.23116111</td>
+<td class="r Data">0.07010105</td>
+<td class="r Data">0.0128</td>
+<td class="r Data">0.9690</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">9</th>
+<td class="r Data">0.16106006</td>
+<td class="r Data">0.05542003</td>
+<td class="r Data">0.0089</td>
+<td class="r Data">0.9779</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">10</th>
+<td class="r Data">0.10564003</td>
+<td class="r Data">0.02297747</td>
+<td class="r Data">0.0059</td>
+<td class="r Data">0.9838</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">11</th>
+<td class="r Data">0.08266256</td>
+<td class="r Data">0.01343044</td>
+<td class="r Data">0.0046</td>
+<td class="r Data">0.9884</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">12</th>
+<td class="r Data">0.06923212</td>
+<td class="r Data">0.02059475</td>
+<td class="r Data">0.0038</td>
+<td class="r Data">0.9922</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">13</th>
+<td class="r Data">0.04863736</td>
+<td class="r Data">0.01505037</td>
+<td class="r Data">0.0027</td>
+<td class="r Data">0.9949</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">14</th>
+<td class="r Data">0.03358700</td>
+<td class="r Data">0.01383094</td>
+<td class="r Data">0.0019</td>
+<td class="r Data">0.9968</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">15</th>
+<td class="r Data">0.01975606</td>
+<td class="r Data">0.00257805</td>
+<td class="r Data">0.0011</td>
+<td class="r Data">0.9979</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">16</th>
+<td class="r Data">0.01717801</td>
+<td class="r Data">0.00251742</td>
+<td class="r Data">0.0010</td>
+<td class="r Data">0.9988</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">17</th>
+<td class="r Data">0.01466059</td>
+<td class="r Data">0.00846820</td>
+<td class="r Data">0.0008</td>
+<td class="r Data">0.9997</td>
+</tr>
+<tr>
+<th class="r RowHeader" scope="row">18</th>
+<td class="r Data">0.00619239</td>
+<td class="r Data">&nbsp;</td>
+<td class="r Data">0.0003</td>
+<td class="r Data">1.0000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<br>
+<p>
+<div class="c ProcTitle">18 factors will be retained by the NFACTOR criterion.</div>
+<p>
+<a name="IDX1"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Factor: Factor Pattern">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="20" scope="colgroup">Factor&nbsp;Pattern</th>
+</tr>
+<tr>
+<th class="c HeaderEmpty" colspan="2" scope="colgroup">&nbsp;</th>
+<th class="r b Header" scope="col">Factor1</th>
+<th class="r b Header" scope="col">Factor2</th>
+<th class="r b Header" scope="col">Factor3</th>
+<th class="r b Header" scope="col">Factor4</th>
+<th class="r b Header" scope="col">Factor5</th>
+<th class="r b Header" scope="col">Factor6</th>
+<th class="r b Header" scope="col">Factor7</th>
+<th class="r b Header" scope="col">Factor8</th>
+<th class="r b Header" scope="col">Factor9</th>
+<th class="r b Header" scope="col">Factor10</th>
+<th class="r b Header" scope="col">Factor11</th>
+<th class="r b Header" scope="col">Factor12</th>
+<th class="r b Header" scope="col">Factor13</th>
+<th class="r b Header" scope="col">Factor14</th>
+<th class="r b Header" scope="col">Factor15</th>
+<th class="r b Header" scope="col">Factor16</th>
+<th class="r b Header" scope="col">Factor17</th>
+<th class="r b Header" scope="col">Factor18</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">med_Actual_price_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data" nowrap>-0.26893</td>
+<td class="r Data">0.76796</td>
+<td class="r Data" nowrap>-0.35465</td>
+<td class="r Data">0.39124</td>
+<td class="r Data">0.06764</td>
+<td class="r Data" nowrap>-0.04721</td>
+<td class="r Data">0.05524</td>
+<td class="r Data">0.02594</td>
+<td class="r Data">0.16030</td>
+<td class="r Data" nowrap>-0.01227</td>
+<td class="r Data">0.05095</td>
+<td class="r Data">0.05723</td>
+<td class="r Data" nowrap>-0.12096</td>
+<td class="r Data" nowrap>-0.02716</td>
+<td class="r Data" nowrap>-0.00894</td>
+<td class="r Data" nowrap>-0.01618</td>
+<td class="r Data">0.03329</td>
+<td class="r Data">0.00043</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_Actual_price_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data" nowrap>-0.20667</td>
+<td class="r Data">0.77664</td>
+<td class="r Data" nowrap>-0.40585</td>
+<td class="r Data">0.37891</td>
+<td class="r Data">0.04507</td>
+<td class="r Data" nowrap>-0.00233</td>
+<td class="r Data">0.03651</td>
+<td class="r Data" nowrap>-0.00547</td>
+<td class="r Data">0.14294</td>
+<td class="r Data">0.05063</td>
+<td class="r Data">0.00009</td>
+<td class="r Data" nowrap>-0.01972</td>
+<td class="r Data">0.12188</td>
+<td class="r Data">0.04536</td>
+<td class="r Data">0.01255</td>
+<td class="r Data">0.00913</td>
+<td class="r Data" nowrap>-0.04350</td>
+<td class="r Data" nowrap>-0.00028</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">TOTAL_DAILY_ORDER_NET_AMT_12</th>
+<th class="l Data">DAILY_ORDER_NET_AMT</th>
+<td class="r Data">0.80875</td>
+<td class="r Data">0.21711</td>
+<td class="r Data" nowrap>-0.26586</td>
+<td class="r Data" nowrap>-0.07866</td>
+<td class="r Data" nowrap>-0.12419</td>
+<td class="r Data">0.37482</td>
+<td class="r Data">0.10600</td>
+<td class="r Data" nowrap>-0.15763</td>
+<td class="r Data" nowrap>-0.07706</td>
+<td class="r Data">0.06474</td>
+<td class="r Data">0.12621</td>
+<td class="r Data">0.03163</td>
+<td class="r Data" nowrap>-0.02736</td>
+<td class="r Data">0.02486</td>
+<td class="r Data" nowrap>-0.00633</td>
+<td class="r Data">0.03743</td>
+<td class="r Data" nowrap>-0.00617</td>
+<td class="r Data">0.00424</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_DAILY_ORDER_NET_AMT_12</th>
+<th class="l Data">DAILY_ORDER_NET_AMT</th>
+<td class="r Data">0.06418</td>
+<td class="r Data">0.97432</td>
+<td class="r Data">0.03532</td>
+<td class="r Data" nowrap>-0.00908</td>
+<td class="r Data" nowrap>-0.01414</td>
+<td class="r Data">0.01575</td>
+<td class="r Data">0.06935</td>
+<td class="r Data" nowrap>-0.02009</td>
+<td class="r Data" nowrap>-0.14351</td>
+<td class="r Data">0.01527</td>
+<td class="r Data" nowrap>-0.07635</td>
+<td class="r Data" nowrap>-0.00668</td>
+<td class="r Data">0.07101</td>
+<td class="r Data" nowrap>-0.03467</td>
+<td class="r Data" nowrap>-0.05795</td>
+<td class="r Data">0.00092</td>
+<td class="r Data">0.05720</td>
+<td class="r Data">0.00424</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">TOTAL_LINE_ITEM_QTY_12</th>
+<th class="l Data">LINE_ITEM_QTY</th>
+<td class="r Data">0.93335</td>
+<td class="r Data" nowrap>-0.06514</td>
+<td class="r Data" nowrap>-0.13405</td>
+<td class="r Data" nowrap>-0.11084</td>
+<td class="r Data" nowrap>-0.04008</td>
+<td class="r Data">0.11290</td>
+<td class="r Data">0.13696</td>
+<td class="r Data" nowrap>-0.10453</td>
+<td class="r Data">0.10672</td>
+<td class="r Data" nowrap>-0.16585</td>
+<td class="r Data">0.00224</td>
+<td class="r Data" nowrap>-0.05996</td>
+<td class="r Data">0.04884</td>
+<td class="r Data" nowrap>-0.01471</td>
+<td class="r Data">0.05024</td>
+<td class="r Data" nowrap>-0.03504</td>
+<td class="r Data">0.03831</td>
+<td class="r Data" nowrap>-0.00282</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_LINE_ITEM_QTY_12</th>
+<th class="l Data">LINE_ITEM_QTY</th>
+<td class="r Data">0.37336</td>
+<td class="r Data">0.50691</td>
+<td class="r Data">0.50916</td>
+<td class="r Data" nowrap>-0.53321</td>
+<td class="r Data" nowrap>-0.08651</td>
+<td class="r Data" nowrap>-0.00277</td>
+<td class="r Data">0.07635</td>
+<td class="r Data" nowrap>-0.05481</td>
+<td class="r Data">0.10549</td>
+<td class="r Data">0.01311</td>
+<td class="r Data" nowrap>-0.09908</td>
+<td class="r Data">0.14176</td>
+<td class="r Data" nowrap>-0.01416</td>
+<td class="r Data">0.04251</td>
+<td class="r Data">0.00457</td>
+<td class="r Data" nowrap>-0.01477</td>
+<td class="r Data" nowrap>-0.01740</td>
+<td class="r Data" nowrap>-0.00218</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">TOTAL_DOLLAR_DISCOUNT_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.91883</td>
+<td class="r Data" nowrap>-0.04532</td>
+<td class="r Data" nowrap>-0.04202</td>
+<td class="r Data">0.12473</td>
+<td class="r Data">0.17761</td>
+<td class="r Data" nowrap>-0.28972</td>
+<td class="r Data" nowrap>-0.06888</td>
+<td class="r Data" nowrap>-0.06084</td>
+<td class="r Data" nowrap>-0.05708</td>
+<td class="r Data">0.00417</td>
+<td class="r Data">0.04046</td>
+<td class="r Data">0.05306</td>
+<td class="r Data">0.01483</td>
+<td class="r Data">0.03126</td>
+<td class="r Data">0.01889</td>
+<td class="r Data" nowrap>-0.00363</td>
+<td class="r Data">0.01169</td>
+<td class="r Data">0.05484</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_DOLLAR_DISCOUNT_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.56679</td>
+<td class="r Data">0.10160</td>
+<td class="r Data">0.66897</td>
+<td class="r Data">0.38198</td>
+<td class="r Data" nowrap>-0.00236</td>
+<td class="r Data">0.15339</td>
+<td class="r Data" nowrap>-0.17230</td>
+<td class="r Data" nowrap>-0.03936</td>
+<td class="r Data">0.03632</td>
+<td class="r Data">0.03886</td>
+<td class="r Data" nowrap>-0.02706</td>
+<td class="r Data">0.04130</td>
+<td class="r Data">0.01991</td>
+<td class="r Data" nowrap>-0.11389</td>
+<td class="r Data">0.03307</td>
+<td class="r Data">0.01536</td>
+<td class="r Data" nowrap>-0.01535</td>
+<td class="r Data">0.00449</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">SIZE_NET_SALES</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.90079</td>
+<td class="r Data">0.11954</td>
+<td class="r Data" nowrap>-0.30649</td>
+<td class="r Data" nowrap>-0.05554</td>
+<td class="r Data">0.08957</td>
+<td class="r Data">0.04339</td>
+<td class="r Data" nowrap>-0.03839</td>
+<td class="r Data">0.05743</td>
+<td class="r Data" nowrap>-0.00770</td>
+<td class="r Data">0.19009</td>
+<td class="r Data" nowrap>-0.10963</td>
+<td class="r Data" nowrap>-0.09246</td>
+<td class="r Data" nowrap>-0.05399</td>
+<td class="r Data">0.01891</td>
+<td class="r Data">0.04390</td>
+<td class="r Data" nowrap>-0.01848</td>
+<td class="r Data">0.01656</td>
+<td class="r Data" nowrap>-0.00400</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">SIZE_QTY</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.94745</td>
+<td class="r Data" nowrap>-0.06031</td>
+<td class="r Data" nowrap>-0.19417</td>
+<td class="r Data" nowrap>-0.09121</td>
+<td class="r Data">0.07921</td>
+<td class="r Data" nowrap>-0.05749</td>
+<td class="r Data">0.03951</td>
+<td class="r Data">0.03063</td>
+<td class="r Data">0.10786</td>
+<td class="r Data" nowrap>-0.08271</td>
+<td class="r Data" nowrap>-0.08689</td>
+<td class="r Data" nowrap>-0.06249</td>
+<td class="r Data" nowrap>-0.03901</td>
+<td class="r Data" nowrap>-0.01788</td>
+<td class="r Data" nowrap>-0.04765</td>
+<td class="r Data">0.07740</td>
+<td class="r Data" nowrap>-0.02138</td>
+<td class="r Data">0.01051</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">SIZE_DOLLAR_DISC</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.92317</td>
+<td class="r Data" nowrap>-0.05605</td>
+<td class="r Data" nowrap>-0.03830</td>
+<td class="r Data">0.12462</td>
+<td class="r Data">0.17087</td>
+<td class="r Data" nowrap>-0.28080</td>
+<td class="r Data" nowrap>-0.05429</td>
+<td class="r Data" nowrap>-0.07453</td>
+<td class="r Data" nowrap>-0.03792</td>
+<td class="r Data">0.00886</td>
+<td class="r Data">0.03926</td>
+<td class="r Data">0.05638</td>
+<td class="r Data">0.01999</td>
+<td class="r Data">0.01254</td>
+<td class="r Data">0.00803</td>
+<td class="r Data">0.03116</td>
+<td class="r Data">0.01878</td>
+<td class="r Data" nowrap>-0.05377</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">RATIO_DISC_SALES</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.37339</td>
+<td class="r Data" nowrap>-0.42775</td>
+<td class="r Data">0.50771</td>
+<td class="r Data">0.41345</td>
+<td class="r Data" nowrap>-0.12391</td>
+<td class="r Data" nowrap>-0.06485</td>
+<td class="r Data">0.45889</td>
+<td class="r Data">0.12566</td>
+<td class="r Data" nowrap>-0.01898</td>
+<td class="r Data">0.04998</td>
+<td class="r Data" nowrap>-0.00314</td>
+<td class="r Data">0.00833</td>
+<td class="r Data">0.00288</td>
+<td class="r Data">0.00549</td>
+<td class="r Data" nowrap>-0.00008</td>
+<td class="r Data">0.00123</td>
+<td class="r Data" nowrap>-0.00067</td>
+<td class="r Data">0.00074</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">med_DAILY_ORDER_NET_AMT_12</th>
+<th class="l Data">DAILY_ORDER_NET_AMT</th>
+<td class="r Data" nowrap>-0.01078</td>
+<td class="r Data">0.95588</td>
+<td class="r Data">0.11578</td>
+<td class="r Data">0.02046</td>
+<td class="r Data">0.01706</td>
+<td class="r Data" nowrap>-0.06036</td>
+<td class="r Data">0.05578</td>
+<td class="r Data">0.07186</td>
+<td class="r Data" nowrap>-0.19221</td>
+<td class="r Data" nowrap>-0.11924</td>
+<td class="r Data" nowrap>-0.00413</td>
+<td class="r Data" nowrap>-0.03546</td>
+<td class="r Data" nowrap>-0.05367</td>
+<td class="r Data">0.00315</td>
+<td class="r Data">0.05504</td>
+<td class="r Data">0.00865</td>
+<td class="r Data" nowrap>-0.04121</td>
+<td class="r Data" nowrap>-0.00432</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">med_LINE_ITEM_QTY_12</th>
+<th class="l Data">LINE_ITEM_QTY</th>
+<td class="r Data">0.27996</td>
+<td class="r Data">0.50801</td>
+<td class="r Data">0.61429</td>
+<td class="r Data" nowrap>-0.45334</td>
+<td class="r Data" nowrap>-0.03605</td>
+<td class="r Data" nowrap>-0.13965</td>
+<td class="r Data" nowrap>-0.02007</td>
+<td class="r Data">0.11572</td>
+<td class="r Data">0.09443</td>
+<td class="r Data">0.06293</td>
+<td class="r Data">0.15422</td>
+<td class="r Data" nowrap>-0.09365</td>
+<td class="r Data">0.01405</td>
+<td class="r Data" nowrap>-0.01886</td>
+<td class="r Data" nowrap>-0.00704</td>
+<td class="r Data">0.00329</td>
+<td class="r Data">0.00593</td>
+<td class="r Data">0.00127</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">med_DOLLAR_DISCOUNT_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.45273</td>
+<td class="r Data">0.10247</td>
+<td class="r Data">0.71685</td>
+<td class="r Data">0.42826</td>
+<td class="r Data" nowrap>-0.01162</td>
+<td class="r Data">0.16699</td>
+<td class="r Data" nowrap>-0.19750</td>
+<td class="r Data">0.04087</td>
+<td class="r Data">0.01474</td>
+<td class="r Data" nowrap>-0.06421</td>
+<td class="r Data" nowrap>-0.00728</td>
+<td class="r Data" nowrap>-0.04201</td>
+<td class="r Data" nowrap>-0.02167</td>
+<td class="r Data">0.10322</td>
+<td class="r Data" nowrap>-0.02985</td>
+<td class="r Data" nowrap>-0.00998</td>
+<td class="r Data">0.01663</td>
+<td class="r Data" nowrap>-0.00370</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">MONTH_SINCE_LAST_TRANSACTION</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data" nowrap>-0.33717</td>
+<td class="r Data" nowrap>-0.04914</td>
+<td class="r Data">0.23956</td>
+<td class="r Data" nowrap>-0.11345</td>
+<td class="r Data">0.87944</td>
+<td class="r Data">0.16852</td>
+<td class="r Data">0.10741</td>
+<td class="r Data">0.01080</td>
+<td class="r Data">0.00109</td>
+<td class="r Data" nowrap>-0.00152</td>
+<td class="r Data">0.01014</td>
+<td class="r Data">0.00500</td>
+<td class="r Data">0.00624</td>
+<td class="r Data">0.00125</td>
+<td class="r Data" nowrap>-0.00040</td>
+<td class="r Data">0.00008</td>
+<td class="r Data">0.00034</td>
+<td class="r Data">0.00008</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">count</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.78584</td>
+<td class="r Data" nowrap>-0.07015</td>
+<td class="r Data" nowrap>-0.43516</td>
+<td class="r Data" nowrap>-0.09983</td>
+<td class="r Data">0.00142</td>
+<td class="r Data">0.15217</td>
+<td class="r Data" nowrap>-0.08263</td>
+<td class="r Data">0.36846</td>
+<td class="r Data" nowrap>-0.01895</td>
+<td class="r Data" nowrap>-0.03791</td>
+<td class="r Data">0.02562</td>
+<td class="r Data">0.09128</td>
+<td class="r Data">0.03951</td>
+<td class="r Data" nowrap>-0.00635</td>
+<td class="r Data" nowrap>-0.00105</td>
+<td class="r Data" nowrap>-0.00712</td>
+<td class="r Data">0.00365</td>
+<td class="r Data" nowrap>-0.00151</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">sum_value_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.97256</td>
+<td class="r Data">0.00583</td>
+<td class="r Data" nowrap>-0.14266</td>
+<td class="r Data">0.06130</td>
+<td class="r Data">0.08271</td>
+<td class="r Data" nowrap>-0.04472</td>
+<td class="r Data">0.00982</td>
+<td class="r Data" nowrap>-0.06586</td>
+<td class="r Data" nowrap>-0.03705</td>
+<td class="r Data" nowrap>-0.00246</td>
+<td class="r Data">0.01950</td>
+<td class="r Data" nowrap>-0.02140</td>
+<td class="r Data" nowrap>-0.01291</td>
+<td class="r Data" nowrap>-0.03275</td>
+<td class="r Data" nowrap>-0.06239</td>
+<td class="r Data" nowrap>-0.07871</td>
+<td class="r Data" nowrap>-0.05568</td>
+<td class="r Data" nowrap>-0.00786</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX2"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Factor: Variance Explained">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="18" scope="colgroup">Variance Explained by Each Factor</th>
+</tr>
+<tr>
+<th class="r b Header" scope="col">Factor1</th>
+<th class="r b Header" scope="col">Factor2</th>
+<th class="r b Header" scope="col">Factor3</th>
+<th class="r b Header" scope="col">Factor4</th>
+<th class="r b Header" scope="col">Factor5</th>
+<th class="r b Header" scope="col">Factor6</th>
+<th class="r b Header" scope="col">Factor7</th>
+<th class="r b Header" scope="col">Factor8</th>
+<th class="r b Header" scope="col">Factor9</th>
+<th class="r b Header" scope="col">Factor10</th>
+<th class="r b Header" scope="col">Factor11</th>
+<th class="r b Header" scope="col">Factor12</th>
+<th class="r b Header" scope="col">Factor13</th>
+<th class="r b Header" scope="col">Factor14</th>
+<th class="r b Header" scope="col">Factor15</th>
+<th class="r b Header" scope="col">Factor16</th>
+<th class="r b Header" scope="col">Factor17</th>
+<th class="r b Header" scope="col">Factor18</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r Data">7.6105944</td>
+<td class="r Data">3.8566250</td>
+<td class="r Data">2.6515241</td>
+<td class="r Data">1.3747921</td>
+<td class="r Data">0.9036971</td>
+<td class="r Data">0.4560132</td>
+<td class="r Data">0.3569868</td>
+<td class="r Data">0.2311611</td>
+<td class="r Data">0.1610601</td>
+<td class="r Data">0.1056400</td>
+<td class="r Data">0.0826626</td>
+<td class="r Data">0.0692321</td>
+<td class="r Data">0.0486374</td>
+<td class="r Data">0.0335870</td>
+<td class="r Data">0.0197561</td>
+<td class="r Data">0.0171780</td>
+<td class="r Data">0.0146606</td>
+<td class="r Data">0.0061924</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX3"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Factor: Final Communality Estimates">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="18" scope="colgroup">Final Communality Estimates: Total = 18.000000</th>
+</tr>
+<tr>
+<th class="r b Header" scope="col">med_Actual_price_12</th>
+<th class="r b Header" scope="col">AVG_Actual_price_12</th>
+<th class="r b Header" scope="col">TOTAL_DAILY_ORDER_NET_AMT_12</th>
+<th class="r b Header" scope="col">AVG_DAILY_ORDER_NET_AMT_12</th>
+<th class="r b Header" scope="col">TOTAL_LINE_ITEM_QTY_12</th>
+<th class="r b Header" scope="col">AVG_LINE_ITEM_QTY_12</th>
+<th class="r b Header" scope="col">TOTAL_DOLLAR_DISCOUNT_12</th>
+<th class="r b Header" scope="col">AVG_DOLLAR_DISCOUNT_12</th>
+<th class="r b Header" scope="col">SIZE_NET_SALES</th>
+<th class="r b Header" scope="col">SIZE_QTY</th>
+<th class="r b Header" scope="col">SIZE_DOLLAR_DISC</th>
+<th class="r b Header" scope="col">RATIO_DISC_SALES</th>
+<th class="r b Header" scope="col">med_DAILY_ORDER_NET_AMT_12</th>
+<th class="r b Header" scope="col">med_LINE_ITEM_QTY_12</th>
+<th class="r b Header" scope="col">med_DOLLAR_DISCOUNT_12</th>
+<th class="r b Header" scope="col">MONTH_SINCE_LAST_TRANSACTION</th>
+<th class="r b Header" scope="col">count</th>
+<th class="r b Header" scope="col">sum_value_12</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br></p><hr size="3">
+<a name="IDX4"></a>
+<table class="SysTitleAndFooterContainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c SystemTitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c ProcTitle">The FACTOR Procedure</div>
+<div class="c ProcTitle">Rotation Method: Varimax</div>
+<p>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Factor: Orthogonal Transformation Matrix">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="19" scope="colgroup">Orthogonal Transformation Matrix</th>
+</tr>
+<tr>
+<th class="c HeaderEmpty" scope="col">&nbsp;</th>
+<th class="r b Header" scope="col">1</th>
+<th class="r b Header" scope="col">2</th>
+<th class="r b Header" scope="col">3</th>
+<th class="r b Header" scope="col">4</th>
+<th class="r b Header" scope="col">5</th>
+<th class="r b Header" scope="col">6</th>
+<th class="r b Header" scope="col">7</th>
+<th class="r b Header" scope="col">8</th>
+<th class="r b Header" scope="col">9</th>
+<th class="r b Header" scope="col">10</th>
+<th class="r b Header" scope="col">11</th>
+<th class="r b Header" scope="col">12</th>
+<th class="r b Header" scope="col">13</th>
+<th class="r b Header" scope="col">14</th>
+<th class="r b Header" scope="col">15</th>
+<th class="r b Header" scope="col">16</th>
+<th class="r b Header" scope="col">17</th>
+<th class="r b Header" scope="col">18</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">1</th>
+<td class="r Data">0.91963</td>
+<td class="r Data" nowrap>-0.10547</td>
+<td class="r Data">0.17960</td>
+<td class="r Data">0.27932</td>
+<td class="r Data" nowrap>-0.12475</td>
+<td class="r Data">0.09333</td>
+<td class="r Data">0.08320</td>
+<td class="r Data">0.03634</td>
+<td class="r Data">0.00776</td>
+<td class="r Data">0.01052</td>
+<td class="r Data">0.00043</td>
+<td class="r Data">0.00621</td>
+<td class="r Data">0.01010</td>
+<td class="r Data" nowrap>-0.00379</td>
+<td class="r Data" nowrap>-0.00248</td>
+<td class="r Data">0.00525</td>
+<td class="r Data" nowrap>-0.00146</td>
+<td class="r Data">0.00046</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">2</th>
+<td class="r Data" nowrap>-0.00197</td>
+<td class="r Data">0.85845</td>
+<td class="r Data">0.46975</td>
+<td class="r Data">0.04928</td>
+<td class="r Data" nowrap>-0.02317</td>
+<td class="r Data" nowrap>-0.16295</td>
+<td class="r Data">0.06902</td>
+<td class="r Data" nowrap>-0.00377</td>
+<td class="r Data">0.07708</td>
+<td class="r Data" nowrap>-0.01050</td>
+<td class="r Data">0.01765</td>
+<td class="r Data">0.00256</td>
+<td class="r Data">0.04142</td>
+<td class="r Data" nowrap>-0.00196</td>
+<td class="r Data" nowrap>-0.00111</td>
+<td class="r Data">0.00093</td>
+<td class="r Data">0.00293</td>
+<td class="r Data" nowrap>-0.00027</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">3</th>
+<td class="r Data" nowrap>-0.32775</td>
+<td class="r Data" nowrap>-0.27577</td>
+<td class="r Data">0.52613</td>
+<td class="r Data">0.66056</td>
+<td class="r Data">0.15098</td>
+<td class="r Data">0.24060</td>
+<td class="r Data" nowrap>-0.08216</td>
+<td class="r Data" nowrap>-0.10765</td>
+<td class="r Data">0.05139</td>
+<td class="r Data" nowrap>-0.01363</td>
+<td class="r Data" nowrap>-0.03035</td>
+<td class="r Data" nowrap>-0.00847</td>
+<td class="r Data">0.01913</td>
+<td class="r Data" nowrap>-0.01214</td>
+<td class="r Data">0.00188</td>
+<td class="r Data">0.00322</td>
+<td class="r Data" nowrap>-0.00171</td>
+<td class="r Data">0.00098</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">4</th>
+<td class="r Data" nowrap>-0.02510</td>
+<td class="r Data">0.39074</td>
+<td class="r Data" nowrap>-0.64703</td>
+<td class="r Data">0.55136</td>
+<td class="r Data" nowrap>-0.08787</td>
+<td class="r Data">0.30234</td>
+<td class="r Data" nowrap>-0.10494</td>
+<td class="r Data" nowrap>-0.07491</td>
+<td class="r Data" nowrap>-0.04068</td>
+<td class="r Data" nowrap>-0.05376</td>
+<td class="r Data" nowrap>-0.03219</td>
+<td class="r Data" nowrap>-0.02177</td>
+<td class="r Data" nowrap>-0.03355</td>
+<td class="r Data" nowrap>-0.03290</td>
+<td class="r Data">0.00200</td>
+<td class="r Data">0.00292</td>
+<td class="r Data" nowrap>-0.00157</td>
+<td class="r Data">0.00240</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">5</th>
+<td class="r Data">0.18917</td>
+<td class="r Data">0.07573</td>
+<td class="r Data" nowrap>-0.10005</td>
+<td class="r Data" nowrap>-0.00808</td>
+<td class="r Data">0.94590</td>
+<td class="r Data" nowrap>-0.10415</td>
+<td class="r Data" nowrap>-0.18068</td>
+<td class="r Data" nowrap>-0.05950</td>
+<td class="r Data">0.00042</td>
+<td class="r Data" nowrap>-0.07029</td>
+<td class="r Data" nowrap>-0.01865</td>
+<td class="r Data" nowrap>-0.01772</td>
+<td class="r Data" nowrap>-0.01099</td>
+<td class="r Data" nowrap>-0.02756</td>
+<td class="r Data">0.00227</td>
+<td class="r Data">0.00347</td>
+<td class="r Data" nowrap>-0.01173</td>
+<td class="r Data">0.00202</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">6</th>
+<td class="r Data" nowrap>-0.09463</td>
+<td class="r Data" nowrap>-0.03380</td>
+<td class="r Data" nowrap>-0.12795</td>
+<td class="r Data">0.24256</td>
+<td class="r Data">0.18675</td>
+<td class="r Data" nowrap>-0.19314</td>
+<td class="r Data">0.77692</td>
+<td class="r Data">0.35542</td>
+<td class="r Data" nowrap>-0.05614</td>
+<td class="r Data">0.23876</td>
+<td class="r Data">0.16761</td>
+<td class="r Data">0.08346</td>
+<td class="r Data">0.03085</td>
+<td class="r Data">0.11551</td>
+<td class="r Data" nowrap>-0.00833</td>
+<td class="r Data" nowrap>-0.00415</td>
+<td class="r Data">0.05391</td>
+<td class="r Data" nowrap>-0.00932</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">7</th>
+<td class="r Data">0.00997</td>
+<td class="r Data">0.11056</td>
+<td class="r Data">0.09218</td>
+<td class="r Data" nowrap>-0.34252</td>
+<td class="r Data">0.15207</td>
+<td class="r Data">0.84381</td>
+<td class="r Data">0.27384</td>
+<td class="r Data" nowrap>-0.09331</td>
+<td class="r Data">0.01992</td>
+<td class="r Data">0.17995</td>
+<td class="r Data" nowrap>-0.01237</td>
+<td class="r Data">0.07424</td>
+<td class="r Data">0.02224</td>
+<td class="r Data">0.06068</td>
+<td class="r Data">0.00988</td>
+<td class="r Data" nowrap>-0.00217</td>
+<td class="r Data">0.01734</td>
+<td class="r Data" nowrap>-0.00261</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">8</th>
+<td class="r Data" nowrap>-0.02168</td>
+<td class="r Data">0.03468</td>
+<td class="r Data">0.05298</td>
+<td class="r Data" nowrap>-0.01837</td>
+<td class="r Data">0.01745</td>
+<td class="r Data">0.21108</td>
+<td class="r Data" nowrap>-0.33168</td>
+<td class="r Data">0.87192</td>
+<td class="r Data">0.08448</td>
+<td class="r Data" nowrap>-0.08173</td>
+<td class="r Data">0.15672</td>
+<td class="r Data" nowrap>-0.16663</td>
+<td class="r Data" nowrap>-0.05490</td>
+<td class="r Data">0.08189</td>
+<td class="r Data">0.01835</td>
+<td class="r Data" nowrap>-0.06104</td>
+<td class="r Data" nowrap>-0.00752</td>
+<td class="r Data" nowrap>-0.00920</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">9</th>
+<td class="r Data">0.00697</td>
+<td class="r Data">0.05201</td>
+<td class="r Data">0.09530</td>
+<td class="r Data">0.01862</td>
+<td class="r Data" nowrap>-0.00204</td>
+<td class="r Data" nowrap>-0.01874</td>
+<td class="r Data" nowrap>-0.17815</td>
+<td class="r Data" nowrap>-0.00145</td>
+<td class="r Data" nowrap>-0.78015</td>
+<td class="r Data">0.37147</td>
+<td class="r Data">0.00898</td>
+<td class="r Data">0.02864</td>
+<td class="r Data" nowrap>-0.40645</td>
+<td class="r Data">0.20278</td>
+<td class="r Data">0.03595</td>
+<td class="r Data">0.00583</td>
+<td class="r Data" nowrap>-0.02257</td>
+<td class="r Data" nowrap>-0.00541</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">10</th>
+<td class="r Data" nowrap>-0.01020</td>
+<td class="r Data" nowrap>-0.00636</td>
+<td class="r Data">0.05026</td>
+<td class="r Data" nowrap>-0.03849</td>
+<td class="r Data">0.00050</td>
+<td class="r Data">0.09396</td>
+<td class="r Data">0.14943</td>
+<td class="r Data" nowrap>-0.08081</td>
+<td class="r Data" nowrap>-0.41324</td>
+<td class="r Data" nowrap>-0.61690</td>
+<td class="r Data">0.57246</td>
+<td class="r Data" nowrap>-0.12332</td>
+<td class="r Data">0.08303</td>
+<td class="r Data" nowrap>-0.16752</td>
+<td class="r Data" nowrap>-0.08558</td>
+<td class="r Data">0.14600</td>
+<td class="r Data">0.00967</td>
+<td class="r Data">0.01467</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">11</th>
+<td class="r Data" nowrap>-0.01448</td>
+<td class="r Data" nowrap>-0.00173</td>
+<td class="r Data">0.03239</td>
+<td class="r Data" nowrap>-0.02705</td>
+<td class="r Data">0.01598</td>
+<td class="r Data">0.02018</td>
+<td class="r Data">0.27453</td>
+<td class="r Data">0.04768</td>
+<td class="r Data" nowrap>-0.07283</td>
+<td class="r Data" nowrap>-0.18520</td>
+<td class="r Data" nowrap>-0.48318</td>
+<td class="r Data" nowrap>-0.66391</td>
+<td class="r Data" nowrap>-0.34106</td>
+<td class="r Data" nowrap>-0.28714</td>
+<td class="r Data">0.07157</td>
+<td class="r Data" nowrap>-0.03821</td>
+<td class="r Data">0.01433</td>
+<td class="r Data">0.01751</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">12</th>
+<td class="r Data" nowrap>-0.02155</td>
+<td class="r Data">0.00675</td>
+<td class="r Data">0.03180</td>
+<td class="r Data" nowrap>-0.00731</td>
+<td class="r Data">0.00645</td>
+<td class="r Data">0.03019</td>
+<td class="r Data">0.07168</td>
+<td class="r Data">0.24232</td>
+<td class="r Data" nowrap>-0.18982</td>
+<td class="r Data" nowrap>-0.33997</td>
+<td class="r Data" nowrap>-0.45561</td>
+<td class="r Data">0.65019</td>
+<td class="r Data" nowrap>-0.05403</td>
+<td class="r Data" nowrap>-0.27743</td>
+<td class="r Data">0.15908</td>
+<td class="r Data">0.19730</td>
+<td class="r Data" nowrap>-0.08199</td>
+<td class="r Data">0.02869</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">13</th>
+<td class="r Data" nowrap>-0.00724</td>
+<td class="r Data">0.01002</td>
+<td class="r Data">0.00349</td>
+<td class="r Data" nowrap>-0.00165</td>
+<td class="r Data">0.00651</td>
+<td class="r Data">0.01034</td>
+<td class="r Data" nowrap>-0.05825</td>
+<td class="r Data">0.11826</td>
+<td class="r Data" nowrap>-0.26101</td>
+<td class="r Data">0.20944</td>
+<td class="r Data" nowrap>-0.23439</td>
+<td class="r Data" nowrap>-0.11180</td>
+<td class="r Data">0.52397</td>
+<td class="r Data" nowrap>-0.25483</td>
+<td class="r Data" nowrap>-0.66936</td>
+<td class="r Data">0.10615</td>
+<td class="r Data" nowrap>-0.05889</td>
+<td class="r Data">0.02453</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">14</th>
+<td class="r Data" nowrap>-0.00162</td>
+<td class="r Data" nowrap>-0.00073</td>
+<td class="r Data">0.01226</td>
+<td class="r Data" nowrap>-0.00063</td>
+<td class="r Data">0.00210</td>
+<td class="r Data">0.00983</td>
+<td class="r Data">0.05240</td>
+<td class="r Data" nowrap>-0.01843</td>
+<td class="r Data" nowrap>-0.00169</td>
+<td class="r Data" nowrap>-0.11896</td>
+<td class="r Data">0.05324</td>
+<td class="r Data">0.20405</td>
+<td class="r Data" nowrap>-0.21797</td>
+<td class="r Data" nowrap>-0.15517</td>
+<td class="r Data" nowrap>-0.32659</td>
+<td class="r Data" nowrap>-0.84930</td>
+<td class="r Data" nowrap>-0.19528</td>
+<td class="r Data" nowrap>-0.01816</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">15</th>
+<td class="r Data" nowrap>-0.00421</td>
+<td class="r Data" nowrap>-0.00137</td>
+<td class="r Data" nowrap>-0.00293</td>
+<td class="r Data" nowrap>-0.00013</td>
+<td class="r Data" nowrap>-0.00113</td>
+<td class="r Data" nowrap>-0.00040</td>
+<td class="r Data" nowrap>-0.01636</td>
+<td class="r Data" nowrap>-0.00225</td>
+<td class="r Data">0.24929</td>
+<td class="r Data">0.26819</td>
+<td class="r Data">0.29416</td>
+<td class="r Data">0.06296</td>
+<td class="r Data" nowrap>-0.44544</td>
+<td class="r Data" nowrap>-0.48090</td>
+<td class="r Data" nowrap>-0.19593</td>
+<td class="r Data">0.36691</td>
+<td class="r Data" nowrap>-0.41469</td>
+<td class="r Data">0.02183</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">16</th>
+<td class="r Data" nowrap>-0.00365</td>
+<td class="r Data" nowrap>-0.00138</td>
+<td class="r Data" nowrap>-0.00751</td>
+<td class="r Data">0.00353</td>
+<td class="r Data">0.00109</td>
+<td class="r Data">0.00098</td>
+<td class="r Data">0.08906</td>
+<td class="r Data" nowrap>-0.02426</td>
+<td class="r Data">0.03246</td>
+<td class="r Data" nowrap>-0.24059</td>
+<td class="r Data" nowrap>-0.15724</td>
+<td class="r Data" nowrap>-0.07134</td>
+<td class="r Data" nowrap>-0.01637</td>
+<td class="r Data">0.58360</td>
+<td class="r Data" nowrap>-0.17995</td>
+<td class="r Data">0.13975</td>
+<td class="r Data" nowrap>-0.70698</td>
+<td class="r Data">0.10027</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">17</th>
+<td class="r Data" nowrap>-0.00258</td>
+<td class="r Data">0.00144</td>
+<td class="r Data" nowrap>-0.00609</td>
+<td class="r Data">0.00448</td>
+<td class="r Data">0.00018</td>
+<td class="r Data" nowrap>-0.00330</td>
+<td class="r Data" nowrap>-0.01751</td>
+<td class="r Data">0.01384</td>
+<td class="r Data" nowrap>-0.16309</td>
+<td class="r Data">0.19721</td>
+<td class="r Data">0.07735</td>
+<td class="r Data" nowrap>-0.12592</td>
+<td class="r Data">0.42307</td>
+<td class="r Data" nowrap>-0.29116</td>
+<td class="r Data">0.57859</td>
+<td class="r Data" nowrap>-0.21601</td>
+<td class="r Data" nowrap>-0.51154</td>
+<td class="r Data">0.07236</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">18</th>
+<td class="r Data" nowrap>-0.00038</td>
+<td class="r Data">0.00023</td>
+<td class="r Data" nowrap>-0.00052</td>
+<td class="r Data">0.00017</td>
+<td class="r Data">0.00021</td>
+<td class="r Data">0.00113</td>
+<td class="r Data">0.00945</td>
+<td class="r Data" nowrap>-0.00314</td>
+<td class="r Data" nowrap>-0.01858</td>
+<td class="r Data" nowrap>-0.02319</td>
+<td class="r Data" nowrap>-0.02702</td>
+<td class="r Data" nowrap>-0.01595</td>
+<td class="r Data">0.03232</td>
+<td class="r Data">0.00489</td>
+<td class="r Data">0.01344</td>
+<td class="r Data">0.03244</td>
+<td class="r Data" nowrap>-0.11828</td>
+<td class="r Data" nowrap>-0.99083</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX5"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Factor: Rotated Factor Pattern">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="20" scope="colgroup">Rotated&nbsp;Factor&nbsp;Pattern</th>
+</tr>
+<tr>
+<th class="c HeaderEmpty" colspan="2" scope="colgroup">&nbsp;</th>
+<th class="r b Header" scope="col">Factor1</th>
+<th class="r b Header" scope="col">Factor2</th>
+<th class="r b Header" scope="col">Factor3</th>
+<th class="r b Header" scope="col">Factor4</th>
+<th class="r b Header" scope="col">Factor5</th>
+<th class="r b Header" scope="col">Factor6</th>
+<th class="r b Header" scope="col">Factor7</th>
+<th class="r b Header" scope="col">Factor8</th>
+<th class="r b Header" scope="col">Factor9</th>
+<th class="r b Header" scope="col">Factor10</th>
+<th class="r b Header" scope="col">Factor11</th>
+<th class="r b Header" scope="col">Factor12</th>
+<th class="r b Header" scope="col">Factor13</th>
+<th class="r b Header" scope="col">Factor14</th>
+<th class="r b Header" scope="col">Factor15</th>
+<th class="r b Header" scope="col">Factor16</th>
+<th class="r b Header" scope="col">Factor17</th>
+<th class="r b Header" scope="col">Factor18</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">med_Actual_price_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data" nowrap>-0.12496</td>
+<td class="r Data">0.95963</td>
+<td class="r Data" nowrap>-0.10423</td>
+<td class="r Data" nowrap>-0.08526</td>
+<td class="r Data" nowrap>-0.00815</td>
+<td class="r Data" nowrap>-0.06615</td>
+<td class="r Data" nowrap>-0.03222</td>
+<td class="r Data" nowrap>-0.00301</td>
+<td class="r Data" nowrap>-0.08220</td>
+<td class="r Data" nowrap>-0.01112</td>
+<td class="r Data" nowrap>-0.02108</td>
+<td class="r Data">0.00329</td>
+<td class="r Data" nowrap>-0.11898</td>
+<td class="r Data">0.01337</td>
+<td class="r Data">0.13483</td>
+<td class="r Data">0.00403</td>
+<td class="r Data">0.00286</td>
+<td class="r Data" nowrap>-0.00037</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_Actual_price_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data" nowrap>-0.05889</td>
+<td class="r Data">0.96390</td>
+<td class="r Data" nowrap>-0.11544</td>
+<td class="r Data" nowrap>-0.09150</td>
+<td class="r Data" nowrap>-0.03864</td>
+<td class="r Data" nowrap>-0.10018</td>
+<td class="r Data">0.00920</td>
+<td class="r Data" nowrap>-0.00316</td>
+<td class="r Data" nowrap>-0.12766</td>
+<td class="r Data">0.01941</td>
+<td class="r Data">0.02315</td>
+<td class="r Data" nowrap>-0.01526</td>
+<td class="r Data" nowrap>-0.01289</td>
+<td class="r Data" nowrap>-0.00821</td>
+<td class="r Data" nowrap>-0.12797</td>
+<td class="r Data" nowrap>-0.00614</td>
+<td class="r Data" nowrap>-0.00383</td>
+<td class="r Data">0.00016</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">TOTAL_DAILY_ORDER_NET_AMT_12</th>
+<th class="l Data">DAILY_ORDER_NET_AMT</th>
+<td class="r Data">0.77430</td>
+<td class="r Data">0.12307</td>
+<td class="r Data">0.12513</td>
+<td class="r Data">0.06869</td>
+<td class="r Data" nowrap>-0.17093</td>
+<td class="r Data" nowrap>-0.03988</td>
+<td class="r Data">0.57412</td>
+<td class="r Data">0.06024</td>
+<td class="r Data">0.00609</td>
+<td class="r Data">0.02086</td>
+<td class="r Data">0.01427</td>
+<td class="r Data">0.00952</td>
+<td class="r Data">0.01057</td>
+<td class="r Data">0.00090</td>
+<td class="r Data" nowrap>-0.00121</td>
+<td class="r Data">0.00155</td>
+<td class="r Data">0.00188</td>
+<td class="r Data" nowrap>-0.00038</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_DAILY_ORDER_NET_AMT_12</th>
+<th class="l Data">DAILY_ORDER_NET_AMT</th>
+<td class="r Data">0.04244</td>
+<td class="r Data">0.81514</td>
+<td class="r Data">0.48244</td>
+<td class="r Data">0.06385</td>
+<td class="r Data" nowrap>-0.02519</td>
+<td class="r Data" nowrap>-0.09169</td>
+<td class="r Data">0.11160</td>
+<td class="r Data" nowrap>-0.01837</td>
+<td class="r Data">0.14676</td>
+<td class="r Data" nowrap>-0.02257</td>
+<td class="r Data">0.03136</td>
+<td class="r Data">0.02721</td>
+<td class="r Data">0.22616</td>
+<td class="r Data" nowrap>-0.00633</td>
+<td class="r Data" nowrap>-0.00590</td>
+<td class="r Data">0.00891</td>
+<td class="r Data">0.00413</td>
+<td class="r Data">0.00021</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">TOTAL_LINE_ITEM_QTY_12</th>
+<th class="l Data">LINE_ITEM_QTY</th>
+<td class="r Data">0.89373</td>
+<td class="r Data" nowrap>-0.14931</td>
+<td class="r Data">0.13475</td>
+<td class="r Data">0.09927</td>
+<td class="r Data" nowrap>-0.12370</td>
+<td class="r Data">0.08865</td>
+<td class="r Data">0.20720</td>
+<td class="r Data">0.00163</td>
+<td class="r Data" nowrap>-0.02365</td>
+<td class="r Data">0.28468</td>
+<td class="r Data" nowrap>-0.04817</td>
+<td class="r Data">0.02235</td>
+<td class="r Data" nowrap>-0.01098</td>
+<td class="r Data">0.01523</td>
+<td class="r Data" nowrap>-0.00495</td>
+<td class="r Data" nowrap>-0.00310</td>
+<td class="r Data" nowrap>-0.00582</td>
+<td class="r Data" nowrap>-0.00056</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_LINE_ITEM_QTY_12</th>
+<th class="l Data">LINE_ITEM_QTY</th>
+<td class="r Data">0.17381</td>
+<td class="r Data">0.05345</td>
+<td class="r Data">0.94389</td>
+<td class="r Data">0.14947</td>
+<td class="r Data" nowrap>-0.00719</td>
+<td class="r Data" nowrap>-0.02221</td>
+<td class="r Data">0.10081</td>
+<td class="r Data" nowrap>-0.02789</td>
+<td class="r Data" nowrap>-0.01341</td>
+<td class="r Data">0.03860</td>
+<td class="r Data">0.00214</td>
+<td class="r Data">0.20020</td>
+<td class="r Data">0.01640</td>
+<td class="r Data">0.01073</td>
+<td class="r Data">0.00337</td>
+<td class="r Data">0.00538</td>
+<td class="r Data" nowrap>-0.00155</td>
+<td class="r Data" nowrap>-0.00024</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">TOTAL_DOLLAR_DISCOUNT_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.91492</td>
+<td class="r Data" nowrap>-0.06455</td>
+<td class="r Data">0.04872</td>
+<td class="r Data">0.24573</td>
+<td class="r Data" nowrap>-0.02726</td>
+<td class="r Data">0.09159</td>
+<td class="r Data" nowrap>-0.16602</td>
+<td class="r Data" nowrap>-0.11568</td>
+<td class="r Data">0.03377</td>
+<td class="r Data" nowrap>-0.12802</td>
+<td class="r Data" nowrap>-0.10181</td>
+<td class="r Data" nowrap>-0.00976</td>
+<td class="r Data" nowrap>-0.00047</td>
+<td class="r Data" nowrap>-0.11610</td>
+<td class="r Data" nowrap>-0.00779</td>
+<td class="r Data">0.00059</td>
+<td class="r Data" nowrap>-0.04719</td>
+<td class="r Data" nowrap>-0.04656</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_DOLLAR_DISCOUNT_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.27561</td>
+<td class="r Data" nowrap>-0.03140</td>
+<td class="r Data">0.22137</td>
+<td class="r Data">0.91243</td>
+<td class="r Data" nowrap>-0.00645</td>
+<td class="r Data">0.13253</td>
+<td class="r Data">0.03347</td>
+<td class="r Data" nowrap>-0.03469</td>
+<td class="r Data" nowrap>-0.02840</td>
+<td class="r Data" nowrap>-0.01551</td>
+<td class="r Data">0.00326</td>
+<td class="r Data">0.01487</td>
+<td class="r Data">0.02239</td>
+<td class="r Data" nowrap>-0.01161</td>
+<td class="r Data">0.00522</td>
+<td class="r Data">0.14012</td>
+<td class="r Data">0.00293</td>
+<td class="r Data">0.00152</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">SIZE_NET_SALES</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.94300</td>
+<td class="r Data">0.07088</td>
+<td class="r Data">0.07989</td>
+<td class="r Data">0.04258</td>
+<td class="r Data" nowrap>-0.07117</td>
+<td class="r Data" nowrap>-0.05139</td>
+<td class="r Data">0.09667</td>
+<td class="r Data">0.08406</td>
+<td class="r Data" nowrap>-0.02082</td>
+<td class="r Data" nowrap>-0.05452</td>
+<td class="r Data">0.26338</td>
+<td class="r Data">0.00028</td>
+<td class="r Data">0.02290</td>
+<td class="r Data">0.00462</td>
+<td class="r Data" nowrap>-0.00741</td>
+<td class="r Data">0.00208</td>
+<td class="r Data" nowrap>-0.00579</td>
+<td class="r Data">0.00015</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">SIZE_QTY</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.96199</td>
+<td class="r Data" nowrap>-0.11501</td>
+<td class="r Data">0.10403</td>
+<td class="r Data">0.06270</td>
+<td class="r Data" nowrap>-0.06957</td>
+<td class="r Data">0.05278</td>
+<td class="r Data" nowrap>-0.00855</td>
+<td class="r Data">0.04112</td>
+<td class="r Data" nowrap>-0.02457</td>
+<td class="r Data">0.08999</td>
+<td class="r Data">0.00551</td>
+<td class="r Data">0.02605</td>
+<td class="r Data" nowrap>-0.02002</td>
+<td class="r Data">0.16305</td>
+<td class="r Data">0.00871</td>
+<td class="r Data" nowrap>-0.00853</td>
+<td class="r Data" nowrap>-0.02349</td>
+<td class="r Data" nowrap>-0.01064</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">SIZE_DOLLAR_DISC</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.91600</td>
+<td class="r Data" nowrap>-0.07395</td>
+<td class="r Data">0.04834</td>
+<td class="r Data">0.24661</td>
+<td class="r Data" nowrap>-0.02972</td>
+<td class="r Data">0.10292</td>
+<td class="r Data" nowrap>-0.15196</td>
+<td class="r Data" nowrap>-0.12469</td>
+<td class="r Data">0.01234</td>
+<td class="r Data" nowrap>-0.12230</td>
+<td class="r Data" nowrap>-0.10828</td>
+<td class="r Data" nowrap>-0.00936</td>
+<td class="r Data">0.00400</td>
+<td class="r Data" nowrap>-0.08810</td>
+<td class="r Data" nowrap>-0.00608</td>
+<td class="r Data">0.01513</td>
+<td class="r Data" nowrap>-0.05452</td>
+<td class="r Data">0.06532</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">RATIO_DISC_SALES</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.15118</td>
+<td class="r Data" nowrap>-0.33836</td>
+<td class="r Data" nowrap>-0.06368</td>
+<td class="r Data">0.47007</td>
+<td class="r Data" nowrap>-0.05358</td>
+<td class="r Data">0.79621</td>
+<td class="r Data" nowrap>-0.01674</td>
+<td class="r Data" nowrap>-0.02132</td>
+<td class="r Data" nowrap>-0.00530</td>
+<td class="r Data">0.00414</td>
+<td class="r Data" nowrap>-0.00516</td>
+<td class="r Data" nowrap>-0.00059</td>
+<td class="r Data" nowrap>-0.00289</td>
+<td class="r Data" nowrap>-0.00054</td>
+<td class="r Data">0.00027</td>
+<td class="r Data">0.00047</td>
+<td class="r Data">0.00001</td>
+<td class="r Data">0.00011</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">med_DAILY_ORDER_NET_AMT_12</th>
+<th class="l Data">DAILY_ORDER_NET_AMT</th>
+<td class="r Data" nowrap>-0.04140</td>
+<td class="r Data">0.79961</td>
+<td class="r Data">0.48404</td>
+<td class="r Data">0.09796</td>
+<td class="r Data">0.00911</td>
+<td class="r Data" nowrap>-0.05977</td>
+<td class="r Data">0.01147</td>
+<td class="r Data">0.01082</td>
+<td class="r Data">0.33035</td>
+<td class="r Data" nowrap>-0.01625</td>
+<td class="r Data" nowrap>-0.01450</td>
+<td class="r Data" nowrap>-0.00859</td>
+<td class="r Data">0.03676</td>
+<td class="r Data" nowrap>-0.00632</td>
+<td class="r Data" nowrap>-0.00235</td>
+<td class="r Data" nowrap>-0.00651</td>
+<td class="r Data">0.00079</td>
+<td class="r Data" nowrap>-0.00012</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">med_LINE_ITEM_QTY_12</th>
+<th class="l Data">LINE_ITEM_QTY</th>
+<td class="r Data">0.06992</td>
+<td class="r Data">0.06760</td>
+<td class="r Data">0.94515</td>
+<td class="r Data">0.22610</td>
+<td class="r Data">0.02643</td>
+<td class="r Data" nowrap>-0.00332</td>
+<td class="r Data" nowrap>-0.06369</td>
+<td class="r Data">0.01283</td>
+<td class="r Data">0.00913</td>
+<td class="r Data" nowrap>-0.02709</td>
+<td class="r Data" nowrap>-0.00075</td>
+<td class="r Data" nowrap>-0.19928</td>
+<td class="r Data" nowrap>-0.02348</td>
+<td class="r Data" nowrap>-0.00825</td>
+<td class="r Data" nowrap>-0.00287</td>
+<td class="r Data" nowrap>-0.00446</td>
+<td class="r Data">0.00105</td>
+<td class="r Data">0.00018</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">med_DOLLAR_DISCOUNT_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.15147</td>
+<td class="r Data" nowrap>-0.01639</td>
+<td class="r Data">0.19111</td>
+<td class="r Data">0.95192</td>
+<td class="r Data">0.00228</td>
+<td class="r Data">0.13146</td>
+<td class="r Data" nowrap>-0.00619</td>
+<td class="r Data">0.01164</td>
+<td class="r Data">0.03958</td>
+<td class="r Data">0.01436</td>
+<td class="r Data" nowrap>-0.00570</td>
+<td class="r Data" nowrap>-0.01350</td>
+<td class="r Data" nowrap>-0.01325</td>
+<td class="r Data">0.00694</td>
+<td class="r Data" nowrap>-0.00482</td>
+<td class="r Data" nowrap>-0.12010</td>
+<td class="r Data" nowrap>-0.00198</td>
+<td class="r Data" nowrap>-0.00108</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">MONTH_SINCE_LAST_TRANSACTION</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data" nowrap>-0.23468</td>
+<td class="r Data" nowrap>-0.04372</td>
+<td class="r Data">0.01728</td>
+<td class="r Data" nowrap>-0.00437</td>
+<td class="r Data">0.96943</td>
+<td class="r Data" nowrap>-0.03108</td>
+<td class="r Data" nowrap>-0.03894</td>
+<td class="r Data" nowrap>-0.01986</td>
+<td class="r Data">0.00078</td>
+<td class="r Data" nowrap>-0.00446</td>
+<td class="r Data" nowrap>-0.00196</td>
+<td class="r Data" nowrap>-0.00090</td>
+<td class="r Data" nowrap>-0.00070</td>
+<td class="r Data" nowrap>-0.00063</td>
+<td class="r Data">0.00033</td>
+<td class="r Data" nowrap>-0.00014</td>
+<td class="r Data" nowrap>-0.00033</td>
+<td class="r Data">0.00002</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">count</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.84267</td>
+<td class="r Data" nowrap>-0.06326</td>
+<td class="r Data" nowrap>-0.06376</td>
+<td class="r Data" nowrap>-0.06834</td>
+<td class="r Data" nowrap>-0.12846</td>
+<td class="r Data" nowrap>-0.07120</td>
+<td class="r Data">0.08786</td>
+<td class="r Data">0.49757</td>
+<td class="r Data">0.00323</td>
+<td class="r Data">0.00333</td>
+<td class="r Data">0.01546</td>
+<td class="r Data" nowrap>-0.00353</td>
+<td class="r Data" nowrap>-0.00228</td>
+<td class="r Data">0.00445</td>
+<td class="r Data" nowrap>-0.00008</td>
+<td class="r Data" nowrap>-0.00181</td>
+<td class="r Data" nowrap>-0.00083</td>
+<td class="r Data" nowrap>-0.00016</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">sum_value_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.96179</td>
+<td class="r Data" nowrap>-0.02979</td>
+<td class="r Data">0.05452</td>
+<td class="r Data">0.19640</td>
+<td class="r Data" nowrap>-0.07809</td>
+<td class="r Data">0.06831</td>
+<td class="r Data">0.06546</td>
+<td class="r Data" nowrap>-0.03670</td>
+<td class="r Data">0.02246</td>
+<td class="r Data" nowrap>-0.01650</td>
+<td class="r Data" nowrap>-0.02681</td>
+<td class="r Data" nowrap>-0.01160</td>
+<td class="r Data">0.02182</td>
+<td class="r Data" nowrap>-0.01438</td>
+<td class="r Data">0.00716</td>
+<td class="r Data">0.00809</td>
+<td class="r Data">0.11697</td>
+<td class="r Data" nowrap>-0.00371</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX6"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Factor: Variance Explained">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="18" scope="colgroup">Variance Explained by Each Factor</th>
+</tr>
+<tr>
+<th class="r b Header" scope="col">Factor1</th>
+<th class="r b Header" scope="col">Factor2</th>
+<th class="r b Header" scope="col">Factor3</th>
+<th class="r b Header" scope="col">Factor4</th>
+<th class="r b Header" scope="col">Factor5</th>
+<th class="r b Header" scope="col">Factor6</th>
+<th class="r b Header" scope="col">Factor7</th>
+<th class="r b Header" scope="col">Factor8</th>
+<th class="r b Header" scope="col">Factor9</th>
+<th class="r b Header" scope="col">Factor10</th>
+<th class="r b Header" scope="col">Factor11</th>
+<th class="r b Header" scope="col">Factor12</th>
+<th class="r b Header" scope="col">Factor13</th>
+<th class="r b Header" scope="col">Factor14</th>
+<th class="r b Header" scope="col">Factor15</th>
+<th class="r b Header" scope="col">Factor16</th>
+<th class="r b Header" scope="col">Factor17</th>
+<th class="r b Header" scope="col">Factor18</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r Data">6.7587714</td>
+<td class="r Data">3.3491144</td>
+<td class="r Data">2.4281154</td>
+<td class="r Data">2.2471957</td>
+<td class="r Data">1.0243900</td>
+<td class="r Data">0.7402467</td>
+<td class="r Data">0.4755063</td>
+<td class="r Data">0.2938464</td>
+<td class="r Data">0.1598292</td>
+<td class="r Data">0.1281604</td>
+<td class="r Data">0.0972224</td>
+<td class="r Data">0.0828545</td>
+<td class="r Data">0.0699829</td>
+<td class="r Data">0.0489993</td>
+<td class="r Data">0.0349708</td>
+<td class="r Data">0.0346676</td>
+<td class="r Data">0.0195604</td>
+<td class="r Data">0.0065659</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX7"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Factor: Final Communality Estimates">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="18" scope="colgroup">Final Communality Estimates: Total = 18.000000</th>
+</tr>
+<tr>
+<th class="r b Header" scope="col">med_Actual_price_12</th>
+<th class="r b Header" scope="col">AVG_Actual_price_12</th>
+<th class="r b Header" scope="col">TOTAL_DAILY_ORDER_NET_AMT_12</th>
+<th class="r b Header" scope="col">AVG_DAILY_ORDER_NET_AMT_12</th>
+<th class="r b Header" scope="col">TOTAL_LINE_ITEM_QTY_12</th>
+<th class="r b Header" scope="col">AVG_LINE_ITEM_QTY_12</th>
+<th class="r b Header" scope="col">TOTAL_DOLLAR_DISCOUNT_12</th>
+<th class="r b Header" scope="col">AVG_DOLLAR_DISCOUNT_12</th>
+<th class="r b Header" scope="col">SIZE_NET_SALES</th>
+<th class="r b Header" scope="col">SIZE_QTY</th>
+<th class="r b Header" scope="col">SIZE_DOLLAR_DISC</th>
+<th class="r b Header" scope="col">RATIO_DISC_SALES</th>
+<th class="r b Header" scope="col">med_DAILY_ORDER_NET_AMT_12</th>
+<th class="r b Header" scope="col">med_LINE_ITEM_QTY_12</th>
+<th class="r b Header" scope="col">med_DOLLAR_DISCOUNT_12</th>
+<th class="r b Header" scope="col">MONTH_SINCE_LAST_TRANSACTION</th>
+<th class="r b Header" scope="col">count</th>
+<th class="r b Header" scope="col">sum_value_12</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br></p><hr size="3">
+<a name="IDX8"></a>
+<table class="SysTitleAndFooterContainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c SystemTitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c ProcTitle">The FACTOR Procedure</div>
+<div class="c ProcTitle">Rotation Method: Varimax</div>
+<p>
+<br>
+<p>
+<div class="c ProcTitle">Scoring Coefficients Estimated by Regression</div>
+<p>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Factor: Squared Multiple Correlations of Variables with Factors">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="18" scope="colgroup">Squared Multiple Correlations of the Variables with Each Factor</th>
+</tr>
+<tr>
+<th class="r b Header" scope="col">Factor1</th>
+<th class="r b Header" scope="col">Factor2</th>
+<th class="r b Header" scope="col">Factor3</th>
+<th class="r b Header" scope="col">Factor4</th>
+<th class="r b Header" scope="col">Factor5</th>
+<th class="r b Header" scope="col">Factor6</th>
+<th class="r b Header" scope="col">Factor7</th>
+<th class="r b Header" scope="col">Factor8</th>
+<th class="r b Header" scope="col">Factor9</th>
+<th class="r b Header" scope="col">Factor10</th>
+<th class="r b Header" scope="col">Factor11</th>
+<th class="r b Header" scope="col">Factor12</th>
+<th class="r b Header" scope="col">Factor13</th>
+<th class="r b Header" scope="col">Factor14</th>
+<th class="r b Header" scope="col">Factor15</th>
+<th class="r b Header" scope="col">Factor16</th>
+<th class="r b Header" scope="col">Factor17</th>
+<th class="r b Header" scope="col">Factor18</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+<td class="r Data">1.0000000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX9"></a>
+<div>
+<div align="center">
+<table class="Table" cellspacing="1" cellpadding="7" rules="groups" frame="box" border="1" bordercolor="#000000" summary="Procedure Factor: Standardized Scoring Coefficients">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b Header" colspan="20" scope="colgroup">Standardized Scoring Coefficients</th>
+</tr>
+<tr>
+<th class="c HeaderEmpty" colspan="2" scope="colgroup">&nbsp;</th>
+<th class="r b Header" scope="col">Factor1</th>
+<th class="r b Header" scope="col">Factor2</th>
+<th class="r b Header" scope="col">Factor3</th>
+<th class="r b Header" scope="col">Factor4</th>
+<th class="r b Header" scope="col">Factor5</th>
+<th class="r b Header" scope="col">Factor6</th>
+<th class="r b Header" scope="col">Factor7</th>
+<th class="r b Header" scope="col">Factor8</th>
+<th class="r b Header" scope="col">Factor9</th>
+<th class="r b Header" scope="col">Factor10</th>
+<th class="r b Header" scope="col">Factor11</th>
+<th class="r b Header" scope="col">Factor12</th>
+<th class="r b Header" scope="col">Factor13</th>
+<th class="r b Header" scope="col">Factor14</th>
+<th class="r b Header" scope="col">Factor15</th>
+<th class="r b Header" scope="col">Factor16</th>
+<th class="r b Header" scope="col">Factor17</th>
+<th class="r b Header" scope="col">Factor18</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l RowHeader" scope="row">med_Actual_price_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.02704317</td>
+<td class="r Data">0.39081282</td>
+<td class="r Data" nowrap>-0.0301529</td>
+<td class="r Data" nowrap>-0.0004629</td>
+<td class="r Data">0.02666239</td>
+<td class="r Data">0.15059231</td>
+<td class="r Data" nowrap>-0.0761991</td>
+<td class="r Data">0.04671566</td>
+<td class="r Data" nowrap>-0.779737</td>
+<td class="r Data">0.14576158</td>
+<td class="r Data" nowrap>-0.0079947</td>
+<td class="r Data">0.01396448</td>
+<td class="r Data" nowrap>-0.6270674</td>
+<td class="r Data" nowrap>-0.422194</td>
+<td class="r Data">3.72779899</td>
+<td class="r Data" nowrap>-0.2407915</td>
+<td class="r Data" nowrap>-0.0983321</td>
+<td class="r Data" nowrap>-0.0275767</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_Actual_price_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.01946316</td>
+<td class="r Data">0.39950544</td>
+<td class="r Data" nowrap>-0.0281081</td>
+<td class="r Data">0.00058022</td>
+<td class="r Data">0.02784141</td>
+<td class="r Data">0.15725154</td>
+<td class="r Data" nowrap>-0.0751715</td>
+<td class="r Data">0.06636804</td>
+<td class="r Data" nowrap>-0.8358641</td>
+<td class="r Data" nowrap>-0.046329</td>
+<td class="r Data" nowrap>-0.2363438</td>
+<td class="r Data">0.15815088</td>
+<td class="r Data" nowrap>-0.8368986</td>
+<td class="r Data">0.19343471</td>
+<td class="r Data" nowrap>-4.1093465</td>
+<td class="r Data">0.08636686</td>
+<td class="r Data">0.48213334</td>
+<td class="r Data" nowrap>-0.0710419</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">TOTAL_DAILY_ORDER_NET_AMT_12</th>
+<th class="l Data">DAILY_ORDER_NET_AMT</th>
+<td class="r Data">0.00144753</td>
+<td class="r Data" nowrap>-0.024139</td>
+<td class="r Data" nowrap>-0.0272876</td>
+<td class="r Data" nowrap>-0.0247378</td>
+<td class="r Data">0.06141073</td>
+<td class="r Data">0.03852395</td>
+<td class="r Data">1.91128549</td>
+<td class="r Data" nowrap>-0.3087997</td>
+<td class="r Data">0.01890205</td>
+<td class="r Data" nowrap>-1.5888347</td>
+<td class="r Data" nowrap>-0.8804032</td>
+<td class="r Data" nowrap>-0.5158782</td>
+<td class="r Data" nowrap>-0.7307888</td>
+<td class="r Data">0.87881226</td>
+<td class="r Data" nowrap>-0.3338983</td>
+<td class="r Data" nowrap>-0.2325316</td>
+<td class="r Data" nowrap>-1.3267696</td>
+<td class="r Data" nowrap>-0.4759605</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_DAILY_ORDER_NET_AMT_12</th>
+<th class="l Data">DAILY_ORDER_NET_AMT</th>
+<td class="r Data">0.00134466</td>
+<td class="r Data">0.20463418</td>
+<td class="r Data">0.00779584</td>
+<td class="r Data" nowrap>-0.016495</td>
+<td class="r Data">0.01342235</td>
+<td class="r Data">0.10419481</td>
+<td class="r Data" nowrap>-0.0989529</td>
+<td class="r Data">0.08870873</td>
+<td class="r Data" nowrap>-1.021785</td>
+<td class="r Data">0.21523014</td>
+<td class="r Data" nowrap>-0.4258521</td>
+<td class="r Data" nowrap>-0.5245546</td>
+<td class="r Data">4.68417693</td>
+<td class="r Data">0.19313642</td>
+<td class="r Data">2.06540724</td>
+<td class="r Data" nowrap>-0.820657</td>
+<td class="r Data" nowrap>-0.7596696</td>
+<td class="r Data" nowrap>-0.4129932</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">TOTAL_LINE_ITEM_QTY_12</th>
+<th class="l Data">LINE_ITEM_QTY</th>
+<td class="r Data">0.13573085</td>
+<td class="r Data">0.02193826</td>
+<td class="r Data" nowrap>-0.0282966</td>
+<td class="r Data" nowrap>-0.02603</td>
+<td class="r Data">0.03289711</td>
+<td class="r Data" nowrap>-0.0288779</td>
+<td class="r Data" nowrap>-0.2849873</td>
+<td class="r Data" nowrap>-0.1979435</td>
+<td class="r Data">0.13871322</td>
+<td class="r Data">3.63982194</td>
+<td class="r Data">0.48374536</td>
+<td class="r Data" nowrap>-0.4581552</td>
+<td class="r Data">0.29470545</td>
+<td class="r Data" nowrap>-2.7154497</td>
+<td class="r Data">0.86055688</td>
+<td class="r Data">0.17590798</td>
+<td class="r Data" nowrap>-0.8036337</td>
+<td class="r Data">0.4730931</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_LINE_ITEM_QTY_12</th>
+<th class="l Data">LINE_ITEM_QTY</th>
+<td class="r Data" nowrap>-0.0366526</td>
+<td class="r Data" nowrap>-0.0440657</td>
+<td class="r Data">0.56267976</td>
+<td class="r Data" nowrap>-0.1203095</td>
+<td class="r Data" nowrap>-0.0173234</td>
+<td class="r Data">0.10268775</td>
+<td class="r Data" nowrap>-0.0721848</td>
+<td class="r Data">0.1618404</td>
+<td class="r Data" nowrap>-0.5393099</td>
+<td class="r Data" nowrap>-0.3953947</td>
+<td class="r Data" nowrap>-0.0503144</td>
+<td class="r Data">2.71638956</td>
+<td class="r Data" nowrap>-0.947287</td>
+<td class="r Data" nowrap>-0.4978078</td>
+<td class="r Data" nowrap>-0.5506849</td>
+<td class="r Data" nowrap>-0.4109375</td>
+<td class="r Data">0.73880371</td>
+<td class="r Data">0.18778938</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">TOTAL_DOLLAR_DISCOUNT_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.17619553</td>
+<td class="r Data">0.01308198</td>
+<td class="r Data" nowrap>-0.0107665</td>
+<td class="r Data" nowrap>-0.0359081</td>
+<td class="r Data">0.02629698</td>
+<td class="r Data" nowrap>-0.0168426</td>
+<td class="r Data" nowrap>-0.1689744</td>
+<td class="r Data" nowrap>-0.2381552</td>
+<td class="r Data" nowrap>-0.0600354</td>
+<td class="r Data" nowrap>-0.4768915</td>
+<td class="r Data" nowrap>-0.6028538</td>
+<td class="r Data">0.11965449</td>
+<td class="r Data">0.08290515</td>
+<td class="r Data" nowrap>-1.5411833</td>
+<td class="r Data">0.06287996</td>
+<td class="r Data" nowrap>-0.1651434</td>
+<td class="r Data" nowrap>-1.9879241</td>
+<td class="r Data" nowrap>-8.6839768</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">AVG_DOLLAR_DISCOUNT_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data" nowrap>-0.0703238</td>
+<td class="r Data" nowrap>-0.0013812</td>
+<td class="r Data" nowrap>-0.1149861</td>
+<td class="r Data">0.58637564</td>
+<td class="r Data" nowrap>-0.0193153</td>
+<td class="r Data" nowrap>-0.343402</td>
+<td class="r Data" nowrap>-0.012184</td>
+<td class="r Data">0.13850126</td>
+<td class="r Data">0.04657647</td>
+<td class="r Data">0.2039846</td>
+<td class="r Data">0.09332024</td>
+<td class="r Data">0.00355714</td>
+<td class="r Data" nowrap>-0.2015404</td>
+<td class="r Data">0.34285611</td>
+<td class="r Data" nowrap>-0.2133162</td>
+<td class="r Data">4.10950686</td>
+<td class="r Data" nowrap>-0.2832632</td>
+<td class="r Data" nowrap>-0.5805275</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">SIZE_NET_SALES</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.1793089</td>
+<td class="r Data" nowrap>-0.0010579</td>
+<td class="r Data" nowrap>-0.0191929</td>
+<td class="r Data" nowrap>-0.0316616</td>
+<td class="r Data">0.03166158</td>
+<td class="r Data" nowrap>-0.0104941</td>
+<td class="r Data" nowrap>-0.2764466</td>
+<td class="r Data" nowrap>-0.3608842</td>
+<td class="r Data">0.29200335</td>
+<td class="r Data">0.34574637</td>
+<td class="r Data">3.55656693</td>
+<td class="r Data">0.07205907</td>
+<td class="r Data" nowrap>-0.5388479</td>
+<td class="r Data" nowrap>-1.3685574</td>
+<td class="r Data">0.50156177</td>
+<td class="r Data" nowrap>-0.1612045</td>
+<td class="r Data" nowrap>-0.5974822</td>
+<td class="r Data">0.58749388</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">SIZE_QTY</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.2177437</td>
+<td class="r Data">0.01871106</td>
+<td class="r Data" nowrap>-0.0223588</td>
+<td class="r Data" nowrap>-0.0333171</td>
+<td class="r Data">0.03512551</td>
+<td class="r Data" nowrap>-0.0229369</td>
+<td class="r Data" nowrap>-0.1935889</td>
+<td class="r Data" nowrap>-0.3483551</td>
+<td class="r Data">0.0297271</td>
+<td class="r Data" nowrap>-0.9503219</td>
+<td class="r Data" nowrap>-0.9392364</td>
+<td class="r Data" nowrap>-0.1321514</td>
+<td class="r Data">0.19612335</td>
+<td class="r Data">5.33162417</td>
+<td class="r Data" nowrap>-0.5720829</td>
+<td class="r Data">0.22625931</td>
+<td class="r Data" nowrap>-1.4597477</td>
+<td class="r Data" nowrap>-1.4585086</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">SIZE_DOLLAR_DISC</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.17471761</td>
+<td class="r Data">0.01378204</td>
+<td class="r Data" nowrap>-0.0115563</td>
+<td class="r Data" nowrap>-0.0359939</td>
+<td class="r Data">0.02694283</td>
+<td class="r Data" nowrap>-0.0175864</td>
+<td class="r Data" nowrap>-0.157199</td>
+<td class="r Data" nowrap>-0.2424988</td>
+<td class="r Data" nowrap>-0.0356987</td>
+<td class="r Data" nowrap>-0.5003951</td>
+<td class="r Data" nowrap>-0.6211839</td>
+<td class="r Data">0.08719361</td>
+<td class="r Data">0.0718035</td>
+<td class="r Data" nowrap>-0.2541178</td>
+<td class="r Data" nowrap>-0.0326318</td>
+<td class="r Data" nowrap>-0.2518494</td>
+<td class="r Data" nowrap>-1.2663673</td>
+<td class="r Data">8.93397998</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">RATIO_DISC_SALES</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data" nowrap>-0.0449741</td>
+<td class="r Data">0.11179013</td>
+<td class="r Data">0.05912615</td>
+<td class="r Data" nowrap>-0.2035187</td>
+<td class="r Data">0.04911989</td>
+<td class="r Data">1.45292686</td>
+<td class="r Data">0.13853693</td>
+<td class="r Data">0.26125748</td>
+<td class="r Data" nowrap>-0.0639733</td>
+<td class="r Data" nowrap>-0.2612994</td>
+<td class="r Data">0.239468</td>
+<td class="r Data">0.05419925</td>
+<td class="r Data">0.05950398</td>
+<td class="r Data" nowrap>-0.0106475</td>
+<td class="r Data" nowrap>-0.1337921</td>
+<td class="r Data" nowrap>-0.0510227</td>
+<td class="r Data" nowrap>-0.0674314</td>
+<td class="r Data" nowrap>-0.11151</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">med_DAILY_ORDER_NET_AMT_12</th>
+<th class="l Data">DAILY_ORDER_NET_AMT</th>
+<td class="r Data">0.01118059</td>
+<td class="r Data">0.16254235</td>
+<td class="r Data" nowrap>-0.0100792</td>
+<td class="r Data" nowrap>-0.0258568</td>
+<td class="r Data">0.00955845</td>
+<td class="r Data">0.09274318</td>
+<td class="r Data" nowrap>-0.0501344</td>
+<td class="r Data" nowrap>-0.0194576</td>
+<td class="r Data">3.02586395</td>
+<td class="r Data">0.24776717</td>
+<td class="r Data">0.4328107</td>
+<td class="r Data">0.40049467</td>
+<td class="r Data" nowrap>-2.6306415</td>
+<td class="r Data">0.15679265</td>
+<td class="r Data" nowrap>-1.5870383</td>
+<td class="r Data">1.19104144</td>
+<td class="r Data">0.10678319</td>
+<td class="r Data">0.54212804</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">med_LINE_ITEM_QTY_12</th>
+<th class="l Data">LINE_ITEM_QTY</th>
+<td class="r Data" nowrap>-0.0254255</td>
+<td class="r Data" nowrap>-0.0465476</td>
+<td class="r Data">0.56263346</td>
+<td class="r Data" nowrap>-0.1260435</td>
+<td class="r Data" nowrap>-0.0168167</td>
+<td class="r Data">0.09802338</td>
+<td class="r Data" nowrap>-0.0131579</td>
+<td class="r Data">0.09364151</td>
+<td class="r Data" nowrap>-0.715409</td>
+<td class="r Data" nowrap>-0.0823655</td>
+<td class="r Data" nowrap>-0.1110482</td>
+<td class="r Data" nowrap>-2.5186647</td>
+<td class="r Data" nowrap>-0.1614472</td>
+<td class="r Data">0.04926293</td>
+<td class="r Data">0.16132579</td>
+<td class="r Data">0.04579219</td>
+<td class="r Data" nowrap>-0.0162298</td>
+<td class="r Data" nowrap>-0.1475359</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">med_DOLLAR_DISCOUNT_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data" nowrap>-0.0629882</td>
+<td class="r Data" nowrap>-0.0023534</td>
+<td class="r Data" nowrap>-0.1290249</td>
+<td class="r Data">0.67728279</td>
+<td class="r Data" nowrap>-0.0205087</td>
+<td class="r Data" nowrap>-0.396152</td>
+<td class="r Data" nowrap>-0.011768</td>
+<td class="r Data">0.10978917</td>
+<td class="r Data" nowrap>-0.1697339</td>
+<td class="r Data">0.09897528</td>
+<td class="r Data">0.06916737</td>
+<td class="r Data">0.18314957</td>
+<td class="r Data">0.20060658</td>
+<td class="r Data">0.01486799</td>
+<td class="r Data">0.29135356</td>
+<td class="r Data" nowrap>-3.7708732</td>
+<td class="r Data">0.00216043</td>
+<td class="r Data">0.48441001</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">MONTH_SINCE_LAST_TRANSACTION</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.07872174</td>
+<td class="r Data">0.03469811</td>
+<td class="r Data" nowrap>-0.0204842</td>
+<td class="r Data" nowrap>-0.0242412</td>
+<td class="r Data">1.06615978</td>
+<td class="r Data">0.09056823</td>
+<td class="r Data">0.20527482</td>
+<td class="r Data">0.12018951</td>
+<td class="r Data" nowrap>-0.068172</td>
+<td class="r Data">0.05727583</td>
+<td class="r Data" nowrap>-0.0866738</td>
+<td class="r Data" nowrap>-0.015057</td>
+<td class="r Data">0.03691529</td>
+<td class="r Data" nowrap>-0.0443063</td>
+<td class="r Data" nowrap>-0.0566244</td>
+<td class="r Data" nowrap>-0.0236532</td>
+<td class="r Data" nowrap>-0.0141402</td>
+<td class="r Data" nowrap>-0.0078782</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">count</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.04800764</td>
+<td class="r Data">0.02266044</td>
+<td class="r Data">0.0160027</td>
+<td class="r Data">0.00242587</td>
+<td class="r Data">0.04357164</td>
+<td class="r Data">0.04730535</td>
+<td class="r Data" nowrap>-0.2576138</td>
+<td class="r Data">2.03420977</td>
+<td class="r Data" nowrap>-0.201992</td>
+<td class="r Data" nowrap>-0.0802301</td>
+<td class="r Data" nowrap>-0.7665122</td>
+<td class="r Data">0.31028496</td>
+<td class="r Data">0.35303792</td>
+<td class="r Data" nowrap>-0.7269017</td>
+<td class="r Data">0.02565044</td>
+<td class="r Data">0.20457962</td>
+<td class="r Data">0.10328232</td>
+<td class="r Data">0.26128459</td>
+</tr>
+<tr>
+<th class="l RowHeader" scope="row">sum_value_12</th>
+<th class="l Data">&nbsp;</th>
+<td class="r Data">0.21271933</td>
+<td class="r Data">0.01215584</td>
+<td class="r Data" nowrap>-0.0133523</td>
+<td class="r Data" nowrap>-0.0433412</td>
+<td class="r Data">0.03549135</td>
+<td class="r Data" nowrap>-0.0222112</td>
+<td class="r Data" nowrap>-0.2376823</td>
+<td class="r Data" nowrap>-0.2893552</td>
+<td class="r Data" nowrap>-0.012952</td>
+<td class="r Data" nowrap>-0.4153899</td>
+<td class="r Data" nowrap>-0.5090838</td>
+<td class="r Data">0.13589501</td>
+<td class="r Data" nowrap>-0.0538109</td>
+<td class="r Data">0.10173829</td>
+<td class="r Data" nowrap>-0.3180793</td>
+<td class="r Data" nowrap>-0.2759052</td>
+<td class="r Data">6.87786864</td>
+<td class="r Data">0.46561422</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>
